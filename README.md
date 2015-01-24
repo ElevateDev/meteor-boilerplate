@@ -27,8 +27,7 @@ A starting point for MeteorJS applications. Includes iron-router, Bootstrap 3, F
   * [dburles:factory](https://github.com/percolatestudio/meteor-factory)
   * [anti:fake](https://github.com/anticoders/meteor-fake/)
 * [Less](http://lesscss.org)
-  * [Bootstrap](http://getbootstrap.com)
-  * [Font Awesome](http://fontawesome.io)
+  * [nemo64:bootstrap](http://getbootstrap.com)
 * Misc:
   * [Moment.js](http://momentjs.com/)
   * [Underscore.js](http://underscorejs.org/)
