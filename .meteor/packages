@@ -21,7 +21,6 @@ cunneen:mailgun
 iron:router@1.0.0
 yasinuslu:blaze-meta
 nemo64:bootstrap
-joshowens:accounts-entry
 accounts-ui
 percolatestudio:percolatestudio-migrations
 peppelg:on-login-logout
@@ -29,3 +28,6 @@ percolate:synced-cron
 aldeed:simple-schema
 aldeed:autoform
 aldeed:collection2
+sanjo:jasmine
+velocity:html-reporter
+useraccounts:core
