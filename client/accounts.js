@@ -37,4 +37,8 @@ AccountsTemplates.configureRoute('signIn');
 AccountsTemplates.configureRoute('signUp',{
   path: "register"
 });
+Router.route('signOut', {
+    path: '/sign-out',
+    onBeforeAction: AccountsTemplates.logout()
+});
 
