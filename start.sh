@@ -1,0 +1,11 @@
+export PHANTOM_PATH=`which phantomjs`
+#export DEBUG=false
+#export VELOCITY_DEBUG=false
+export CUCUMBER=0
+export JASMINE_SERVER_INTEGRATION=0
+export JASMINE_CLIENT_INTEGRATION=0
+export JASMINE_CLIENT_UNIT=0
+export JASMINE_SERVER_UNIT=0
+export JASMINE_PACKAGES_TO_INCLUDE_IN_UNIT_TESTS=dburles:factory
+
+DISPLAY=:1 meteor --port=3000

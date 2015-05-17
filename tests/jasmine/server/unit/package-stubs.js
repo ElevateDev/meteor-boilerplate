@@ -6231,6 +6231,9 @@ var packageMetadata = {
                 "autorun": {
                   "type": "function"
                 },
+                "subscribe": {
+                  "type": "function"
+                },
                 "firstNode": {
                   "type": "function"
                 },
@@ -6271,7 +6274,7 @@ var packageMetadata = {
         },
         "getData": {
           "type": "function",
-          "refID": 31
+          "refID": 33
         },
         "getElementData": {
           "type": "function"
@@ -6296,7 +6299,7 @@ var packageMetadata = {
         },
         "registerHelper": {
           "type": "function",
-          "refID": 47
+          "refID": 49
         },
         "Template": {
           "type": "function",
@@ -6305,17 +6308,26 @@ var packageMetadata = {
               "type": "function"
             },
             "currentData": {
-              "ref": 31
+              "ref": 33
             },
             "parentData": {
               "type": "function"
             },
             "registerHelper": {
-              "ref": 47
+              "ref": 49
             },
             "prototype": {
               "type": "object",
               "members": {
+                "onCreated": {
+                  "type": "function"
+                },
+                "onRendered": {
+                  "type": "function"
+                },
+                "onDestroyed": {
+                  "type": "function"
+                },
                 "constructView": {
                   "type": "function"
                 },
@@ -6348,6 +6360,12 @@ var packageMetadata = {
                   "type": "function"
                 },
                 "autorun": {
+                  "type": "function"
+                },
+                "subscribe": {
+                  "type": "function"
+                },
+                "subscriptionsReady": {
                   "type": "function"
                 }
               }
@@ -6396,6 +6414,9 @@ var packageMetadata = {
                 "autorun": {
                   "type": "function"
                 },
+                "subscribe": {
+                  "type": "function"
+                },
                 "firstNode": {
                   "type": "function"
                 },
@@ -6436,7 +6457,7 @@ var packageMetadata = {
         },
         "getData": {
           "type": "function",
-          "refID": 31
+          "refID": 33
         },
         "getElementData": {
           "type": "function"
@@ -6461,7 +6482,7 @@ var packageMetadata = {
         },
         "registerHelper": {
           "type": "function",
-          "refID": 47
+          "refID": 49
         },
         "Template": {
           "type": "function",
@@ -6470,17 +6491,26 @@ var packageMetadata = {
               "type": "function"
             },
             "currentData": {
-              "ref": 31
+              "ref": 33
             },
             "parentData": {
               "type": "function"
             },
             "registerHelper": {
-              "ref": 47
+              "ref": 49
             },
             "prototype": {
               "type": "object",
               "members": {
+                "onCreated": {
+                  "type": "function"
+                },
+                "onRendered": {
+                  "type": "function"
+                },
+                "onDestroyed": {
+                  "type": "function"
+                },
                 "constructView": {
                   "type": "function"
                 },
@@ -6513,6 +6543,12 @@ var packageMetadata = {
                   "type": "function"
                 },
                 "autorun": {
+                  "type": "function"
+                },
+                "subscribe": {
+                  "type": "function"
+                },
+                "subscriptionsReady": {
                   "type": "function"
                 }
               }
@@ -6649,6 +6685,9 @@ var packageMetadata = {
                 "autorun": {
                   "type": "function"
                 },
+                "subscribe": {
+                  "type": "function"
+                },
                 "firstNode": {
                   "type": "function"
                 },
@@ -6689,7 +6728,7 @@ var packageMetadata = {
         },
         "getData": {
           "type": "function",
-          "refID": 31
+          "refID": 33
         },
         "getElementData": {
           "type": "function"
@@ -6714,7 +6753,7 @@ var packageMetadata = {
         },
         "registerHelper": {
           "type": "function",
-          "refID": 47
+          "refID": 49
         },
         "Template": {
           "type": "function",
@@ -6723,17 +6762,26 @@ var packageMetadata = {
               "type": "function"
             },
             "currentData": {
-              "ref": 31
+              "ref": 33
             },
             "parentData": {
               "type": "function"
             },
             "registerHelper": {
-              "ref": 47
+              "ref": 49
             },
             "prototype": {
               "type": "object",
               "members": {
+                "onCreated": {
+                  "type": "function"
+                },
+                "onRendered": {
+                  "type": "function"
+                },
+                "onDestroyed": {
+                  "type": "function"
+                },
                 "constructView": {
                   "type": "function"
                 },
@@ -6766,6 +6814,12 @@ var packageMetadata = {
                   "type": "function"
                 },
                 "autorun": {
+                  "type": "function"
+                },
+                "subscribe": {
+                  "type": "function"
+                },
+                "subscriptionsReady": {
                   "type": "function"
                 }
               }
@@ -6814,6 +6868,9 @@ var packageMetadata = {
                 "autorun": {
                   "type": "function"
                 },
+                "subscribe": {
+                  "type": "function"
+                },
                 "firstNode": {
                   "type": "function"
                 },
@@ -6854,7 +6911,7 @@ var packageMetadata = {
         },
         "getData": {
           "type": "function",
-          "refID": 31
+          "refID": 33
         },
         "getElementData": {
           "type": "function"
@@ -6879,7 +6936,7 @@ var packageMetadata = {
         },
         "registerHelper": {
           "type": "function",
-          "refID": 47
+          "refID": 49
         },
         "Template": {
           "type": "function",
@@ -6888,17 +6945,26 @@ var packageMetadata = {
               "type": "function"
             },
             "currentData": {
-              "ref": 31
+              "ref": 33
             },
             "parentData": {
               "type": "function"
             },
             "registerHelper": {
-              "ref": 47
+              "ref": 49
             },
             "prototype": {
               "type": "object",
               "members": {
+                "onCreated": {
+                  "type": "function"
+                },
+                "onRendered": {
+                  "type": "function"
+                },
+                "onDestroyed": {
+                  "type": "function"
+                },
                 "constructView": {
                   "type": "function"
                 },
@@ -6931,6 +6997,12 @@ var packageMetadata = {
                   "type": "function"
                 },
                 "autorun": {
+                  "type": "function"
+                },
+                "subscribe": {
+                  "type": "function"
+                },
+                "subscriptionsReady": {
                   "type": "function"
                 }
               }
@@ -7035,7 +7107,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "c9bccc4a6d9ff5a3951f65399acbc94852c870cd"
+                  "value": "b1b2dc6f73a92e9041784694355f444478019891"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7237,3228 +7309,6 @@ var packageMetadata = {
     },
     "main": {
       "type": "function"
-    },
-    "WebAppInternals": {
-      "type": "object",
-      "members": {
-        "identifyBrowser": {
-          "type": "function"
-        },
-        "generateBoilerplateInstance": {
-          "type": "function"
-        },
-        "staticFilesMiddleware": {
-          "type": "function"
-        },
-        "bindToProxy": {
-          "type": "function"
-        },
-        "addRoute": {
-          "type": "function"
-        },
-        "reloadClientPrograms": {
-          "type": "function"
-        },
-        "generateBoilerplate": {
-          "type": "function"
-        },
-        "staticFiles": {
-          "type": "object",
-          "members": {
-            "/packages/underscore.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/underscore.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/underscore.js.map"
-                }
-              }
-            },
-            "/packages/meteor.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/meteor.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/81e2f06cff198adaa81b3bc09fc4f3728b7370ec.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/81e2f06cff198adaa81b3bc09fc4f3728b7370ec.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/meteor.js.map"
-                }
-              }
-            },
-            "/packages/json.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/json.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/e22856eae714c681199eabc5c0710b904b125554.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/e22856eae714c681199eabc5c0710b904b125554.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/json.js.map"
-                }
-              }
-            },
-            "/packages/base64.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/base64.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/1a63019243b73298e2964e6d4680f25bca657726.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/1a63019243b73298e2964e6d4680f25bca657726.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/base64.js.map"
-                }
-              }
-            },
-            "/packages/ejson.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/ejson.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/ejson.js.map"
-                }
-              }
-            },
-            "/packages/logging.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/logging.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/07e201b648f16be8435a4f666156995eeda0c750.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/07e201b648f16be8435a4f666156995eeda0c750.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/logging.js.map"
-                }
-              }
-            },
-            "/packages/reload.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/reload.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/da8974b7231dd8c0caccb5f322dcf97329d486d1.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/da8974b7231dd8c0caccb5f322dcf97329d486d1.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/reload.js.map"
-                }
-              }
-            },
-            "/packages/tracker.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/tracker.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/517c8fe8ed6408951a30941e64a5383a7174bcfa.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/517c8fe8ed6408951a30941e64a5383a7174bcfa.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/tracker.js.map"
-                }
-              }
-            },
-            "/packages/random.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/random.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/random.js.map"
-                }
-              }
-            },
-            "/packages/retry.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/retry.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/retry.js.map"
-                }
-              }
-            },
-            "/packages/check.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/check.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/ac81167b8513b85b926c167bba423981b0c4cf9c.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/ac81167b8513b85b926c167bba423981b0c4cf9c.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/check.js.map"
-                }
-              }
-            },
-            "/packages/id-map.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/id-map.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/id-map.js.map"
-                }
-              }
-            },
-            "/packages/ordered-dict.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/ordered-dict.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/ordered-dict.js.map"
-                }
-              }
-            },
-            "/packages/geojson-utils.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/geojson-utils.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/geojson-utils.js.map"
-                }
-              }
-            },
-            "/packages/minimongo.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/minimongo.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/e8806aa7782b729b2517ebc0cd10b321667f1427.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/e8806aa7782b729b2517ebc0cd10b321667f1427.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/minimongo.js.map"
-                }
-              }
-            },
-            "/packages/ddp.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/ddp.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/41b62dcceb3ce0de6ca79c6aed088cccde6a44d8.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/41b62dcceb3ce0de6ca79c6aed088cccde6a44d8.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/ddp.js.map"
-                }
-              }
-            },
-            "/packages/follower-livedata.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/follower-livedata.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/follower-livedata.js.map"
-                }
-              }
-            },
-            "/packages/application-configuration.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/application-configuration.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/application-configuration.js.map"
-                }
-              }
-            },
-            "/packages/mongo.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/mongo.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/052f30e968644b2b39a96605ffee73a7684ff37b.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/052f30e968644b2b39a96605ffee73a7684ff37b.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/mongo.js.map"
-                }
-              }
-            },
-            "/packages/autoupdate.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/autoupdate.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/9a5ea03bf057815385bf569c7acc2c285c005491.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/9a5ea03bf057815385bf569c7acc2c285c005491.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/autoupdate.js.map"
-                }
-              }
-            },
-            "/packages/meteor-platform.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/meteor-platform.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/meteor-platform.js.map"
-                }
-              }
-            },
-            "/packages/less.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/less.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/less.js.map"
-                }
-              }
-            },
-            "/packages/localstorage.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/localstorage.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/localstorage.js.map"
-                }
-              }
-            },
-            "/packages/jquery.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/jquery.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/dd8bac56f8fd3666d433d2285ae01e52597cc51a.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/dd8bac56f8fd3666d433d2285ae01e52597cc51a.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/jquery.js.map"
-                }
-              }
-            },
-            "/packages/deps.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/deps.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/deps.js.map"
-                }
-              }
-            },
-            "/packages/htmljs.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/htmljs.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/567eb96d5d22631c03d6aca6afa4c42f0d1295f2.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/567eb96d5d22631c03d6aca6afa4c42f0d1295f2.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/htmljs.js.map"
-                }
-              }
-            },
-            "/packages/observe-sequence.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/observe-sequence.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/2fd807ea171ead273b9e6458607cb226012d9240.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/2fd807ea171ead273b9e6458607cb226012d9240.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/observe-sequence.js.map"
-                }
-              }
-            },
-            "/packages/reactive-var.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/reactive-var.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/reactive-var.js.map"
-                }
-              }
-            },
-            "/packages/blaze.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/blaze.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/efa68f65e67544b5a05509804bf97e2c91ce75eb.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/efa68f65e67544b5a05509804bf97e2c91ce75eb.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/blaze.js.map"
-                }
-              }
-            },
-            "/packages/accounts-base.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/accounts-base.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/88bb0577cebfbd40b522bb337f8ff8af92244c2f.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/88bb0577cebfbd40b522bb337f8ff8af92244c2f.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/accounts-base.js.map"
-                }
-              }
-            },
-            "/packages/sha.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/sha.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/65ef52f7221944768bfc2049d6b7e163c8ae2615.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/65ef52f7221944768bfc2049d6b7e163c8ae2615.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/sha.js.map"
-                }
-              }
-            },
-            "/packages/srp.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/srp.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/e2e28156e8c912d504a3586351c8a1119f664cfd.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/e2e28156e8c912d504a3586351c8a1119f664cfd.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/srp.js.map"
-                }
-              }
-            },
-            "/packages/accounts-password.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/accounts-password.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/3845cc71ad2dc1378b7d8cc4164a78359506dd40.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/3845cc71ad2dc1378b7d8cc4164a78359506dd40.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/accounts-password.js.map"
-                }
-              }
-            },
-            "/packages/templating.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/templating.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/599ba307216da826d8b335332ebcc9a497a369a0.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/599ba307216da826d8b335332ebcc9a497a369a0.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/templating.js.map"
-                }
-              }
-            },
-            "/packages/ui.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/ui.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/ui.js.map"
-                }
-              }
-            },
-            "/packages/iron_core.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_core.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/d966a1f70c94792fd94c8a155bdbef9bec5e0047.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/d966a1f70c94792fd94c8a155bdbef9bec5e0047.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_core.js.map"
-                }
-              }
-            },
-            "/packages/iron_dynamic-template.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/d425554c9847e4a80567f8ca55719cd6ae3f2722.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/d425554c9847e4a80567f8ca55719cd6ae3f2722.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js.map"
-                }
-              }
-            },
-            "/packages/iron_layout.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_layout.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_layout.js.map"
-                }
-              }
-            },
-            "/packages/iron_url.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_url.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/6979e41649a22dcf609df30fc533e36037c7ae58.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/6979e41649a22dcf609df30fc533e36037c7ae58.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_url.js.map"
-                }
-              }
-            },
-            "/packages/iron_middleware-stack.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_middleware-stack.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/0e0f6983a838a6516556b08e62894f89720e2c44.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/0e0f6983a838a6516556b08e62894f89720e2c44.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_middleware-stack.js.map"
-                }
-              }
-            },
-            "/packages/iron_location.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_location.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/ca4f0f6672edbfb6cafab6e5c024208d9364eac9.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/ca4f0f6672edbfb6cafab6e5c024208d9364eac9.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_location.js.map"
-                }
-              }
-            },
-            "/packages/reactive-dict.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/reactive-dict.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/reactive-dict.js.map"
-                }
-              }
-            },
-            "/packages/iron_controller.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_controller.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/b02790701804563eafedb2e68c602154983ade06.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/b02790701804563eafedb2e68c602154983ade06.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_controller.js.map"
-                }
-              }
-            },
-            "/packages/iron_router.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_router.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/a427868585af16bb88b7c9996b2449aebb8dbf51.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/a427868585af16bb88b7c9996b2449aebb8dbf51.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/iron_router.js.map"
-                }
-              }
-            },
-            "/packages/useraccounts_core.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/useraccounts_core.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/340d573e558750fc0594085291b63c493facf666.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/340d573e558750fc0594085291b63c493facf666.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/useraccounts_core.js.map"
-                }
-              }
-            },
-            "/packages/coffeescript.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/coffeescript.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/969f68786bbc68e6cad299e74922a53af3d1404b.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/969f68786bbc68e6cad299e74922a53af3d1404b.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/coffeescript.js.map"
-                }
-              }
-            },
-            "/packages/softwarerero_accounts-t9n.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/softwarerero_accounts-t9n.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/4979cb752c12f089d38eb01cd3df6a744b45f5b4.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/4979cb752c12f089d38eb01cd3df6a744b45f5b4.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/softwarerero_accounts-t9n.js.map"
-                }
-              }
-            },
-            "/packages/useraccounts_bootstrap.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/useraccounts_bootstrap.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/ae73de95a52cbd1f4ff586494851df89a4095e16.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/ae73de95a52cbd1f4ff586494851df89a4095e16.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/useraccounts_bootstrap.js.map"
-                }
-              }
-            },
-            "/packages/alanning_roles.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/alanning_roles.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/79ec06e46df4edfbc286f83d1ad8064d46d44990.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/79ec06e46df4edfbc286f83d1ad8064d46d44990.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/alanning_roles.js.map"
-                }
-              }
-            },
-            "/packages/wizonesolutions_underscore-string.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/wizonesolutions_underscore-string.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/cb524440e4e5eefc5be77f6b2df5d2c0d85d49dc.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/cb524440e4e5eefc5be77f6b2df5d2c0d85d49dc.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/wizonesolutions_underscore-string.js.map"
-                }
-              }
-            },
-            "/packages/zimme_iron-router-active.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/zimme_iron-router-active.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/ba8ca19a10973351750da7586ef45c7bfdb13035.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/ba8ca19a10973351750da7586ef45c7bfdb13035.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/zimme_iron-router-active.js.map"
-                }
-              }
-            },
-            "/packages/cmather_handlebars-server.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/cmather_handlebars-server.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/c6447646a77dd2f090e33422fff58fbec1bbd4f6.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/c6447646a77dd2f090e33422fff58fbec1bbd4f6.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/cmather_handlebars-server.js.map"
-                }
-              }
-            },
-            "/packages/dburles_collection-helpers.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/dburles_collection-helpers.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/10b8845e36a7fe0526609cd1095b7dae30b9ed8e.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/10b8845e36a7fe0526609cd1095b7dae30b9ed8e.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/dburles_collection-helpers.js.map"
-                }
-              }
-            },
-            "/packages/reywood_publish-composite.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/reywood_publish-composite.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/f8a4b4678e93f2105df0857cbdfdac20530f2702.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/f8a4b4678e93f2105df0857cbdfdac20530f2702.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/reywood_publish-composite.js.map"
-                }
-              }
-            },
-            "/packages/mrt_moment.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/mrt_moment.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/d7e4a40c3c8d0a0bbca78591d0b5385f3271212c.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/d7e4a40c3c8d0a0bbca78591d0b5385f3271212c.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/mrt_moment.js.map"
-                }
-              }
-            },
-            "/packages/mrt_underscore-string-latest.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/mrt_underscore-string-latest.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/a38ecc39a67ea4036d5d875dd102f3d8ad73174d.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/a38ecc39a67ea4036d5d875dd102f3d8ad73174d.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/mrt_underscore-string-latest.js.map"
-                }
-              }
-            },
-            "/packages/matb33_collection-hooks.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/matb33_collection-hooks.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/9dd7a5c2e0789de54c28fa2bd27fbc6e5e7833fa.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/9dd7a5c2e0789de54c28fa2bd27fbc6e5e7833fa.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/matb33_collection-hooks.js.map"
-                }
-              }
-            },
-            "/packages/dburles_factory.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/dburles_factory.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/ec6c42c3dfd8ca1b5834bd097904221bce1f1288.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/ec6c42c3dfd8ca1b5834bd097904221bce1f1288.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/dburles_factory.js.map"
-                }
-              }
-            },
-            "/packages/anti_fake.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/anti_fake.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/03ad503f3edf8bf4d8164dc17f94e65d6f56c6ad.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/03ad503f3edf8bf4d8164dc17f94e65d6f56c6ad.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/anti_fake.js.map"
-                }
-              }
-            },
-            "/packages/cunneen_mailgun.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/cunneen_mailgun.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/cc2e1bd8273f433a11fd3b142741d361dc533071.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/cc2e1bd8273f433a11fd3b142741d361dc533071.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/cunneen_mailgun.js.map"
-                }
-              }
-            },
-            "/packages/session.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/session.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/e436deefadc999c21b6fd16e8e1ecce55c3c3a55.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/e436deefadc999c21b6fd16e8e1ecce55c3c3a55.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/session.js.map"
-                }
-              }
-            },
-            "/packages/yasinuslu_blaze-meta.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/yasinuslu_blaze-meta.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/7ef4c16332798864c7f94758409967c40858b01f.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/7ef4c16332798864c7f94758409967c40858b01f.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/yasinuslu_blaze-meta.js.map"
-                }
-              }
-            },
-            "/packages/nemo64_bootstrap-data.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap-data.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/5668c42202b40f6c6ea45d87def47b9c6ced760c.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/5668c42202b40f6c6ea45d87def47b9c6ced760c.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap-data.js.map"
-                }
-              }
-            },
-            "/packages/nemo64_bootstrap.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/ec67e21097838440b595b9cec9f3aca5493efadb.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/ec67e21097838440b595b9cec9f3aca5493efadb.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap.js.map"
-                }
-              }
-            },
-            "/packages/service-configuration.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/service-configuration.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/service-configuration.js.map"
-                }
-              }
-            },
-            "/packages/accounts-ui-unstyled.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/accounts-ui-unstyled.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/1ac0cc1f87f6e64d6cfbf5cab2e606405bb49183.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/1ac0cc1f87f6e64d6cfbf5cab2e606405bb49183.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/accounts-ui-unstyled.js.map"
-                }
-              }
-            },
-            "/packages/accounts-ui.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/accounts-ui.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/1ff79db616cce9b320fe8aed6103eded31248467.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/1ff79db616cce9b320fe8aed6103eded31248467.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/accounts-ui.js.map"
-                }
-              }
-            },
-            "/packages/percolatestudio_percolatestudio-migrations.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/percolatestudio_percolatestudio-migrations.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/0353f762f9f3842bc7ff18b335021afcb51552b7.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/0353f762f9f3842bc7ff18b335021afcb51552b7.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/percolatestudio_percolatestudio-migrations.js.map"
-                }
-              }
-            },
-            "/packages/peppelg_on-login-logout.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/peppelg_on-login-logout.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/58272bb1e22336adf7b3627d97d975293e5f30ac.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/58272bb1e22336adf7b3627d97d975293e5f30ac.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/peppelg_on-login-logout.js.map"
-                }
-              }
-            },
-            "/packages/percolate_synced-cron.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/percolate_synced-cron.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/96fe89b6369ab8b137588115c2138a6da19409cb.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/96fe89b6369ab8b137588115c2138a6da19409cb.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/percolate_synced-cron.js.map"
-                }
-              }
-            },
-            "/packages/aldeed_simple-schema.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/aldeed_simple-schema.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/8fda161c43c0ba62801a10b0dfcc3eab75c6db88.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/8fda161c43c0ba62801a10b0dfcc3eab75c6db88.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/aldeed_simple-schema.js.map"
-                }
-              }
-            },
-            "/packages/livedata.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/livedata.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/livedata.js.map"
-                }
-              }
-            },
-            "/packages/momentjs_moment.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/momentjs_moment.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/d9d4bbdecdb587b374b97f07e2667b0abaf5c73e.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/d9d4bbdecdb587b374b97f07e2667b0abaf5c73e.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/momentjs_moment.js.map"
-                }
-              }
-            },
-            "/packages/aldeed_collection2.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/aldeed_collection2.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/c35c23c23b5ed785bc3e5b3fb7b1df0c33391790.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/c35c23c23b5ed785bc3e5b3fb7b1df0c33391790.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/aldeed_collection2.js.map"
-                }
-              }
-            },
-            "/packages/aldeed_autoform.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/aldeed_autoform.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/b2b90d28d5cc29be68358bb3c8bb8a337992a7dd.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/b2b90d28d5cc29be68358bb3c8bb8a337992a7dd.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/aldeed_autoform.js.map"
-                }
-              }
-            },
-            "/packages/practicalmeteor_chai.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/practicalmeteor_chai.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/7fbbbec9a13f4adf082b394c5ddd7230d84afc48.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/7fbbbec9a13f4adf082b394c5ddd7230d84afc48.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/practicalmeteor_chai.js.map"
-                }
-              }
-            },
-            "/packages/practicalmeteor_loglevel.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/practicalmeteor_loglevel.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/9185331dfa11fd235edfbef93838d4ca3244d638.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/9185331dfa11fd235edfbef93838d4ca3244d638.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/practicalmeteor_loglevel.js.map"
-                }
-              }
-            },
-            "/packages/velocity_core.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_core.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/cecf2443254038195518d507d5fe0ecdc5dce435.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/cecf2443254038195518d507d5fe0ecdc5dce435.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_core.js.map"
-                }
-              }
-            },
-            "/packages/velocity_shim.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_shim.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/14363d085a412115605c41536e4f2867425b89d5.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/14363d085a412115605c41536e4f2867425b89d5.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_shim.js.map"
-                }
-              }
-            },
-            "/packages/sanjo_jasmine.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/a732276f0c2057fc89680d369aad8289b746b7cc.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/a732276f0c2057fc89680d369aad8289b746b7cc.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js.map"
-                }
-              }
-            },
-            "/packages/amplify.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/amplify.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/amplify.js.map"
-                }
-              }
-            },
-            "/packages/velocity_html-reporter.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/97f734c1260460f34fb23e644e6a88db38a66a11.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/97f734c1260460f34fb23e644e6a88db38a66a11.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter.js.map"
-                }
-              }
-            },
-            "/packages/webapp.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/webapp.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/e1be090051b82f046484dccc2de7d747e50c7328.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/webapp.js.map"
-                }
-              }
-            },
-            "/packages/spacebars.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/spacebars.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/7f53771c84a2eafac2b561c9796dda0d8af8e7f5.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/7f53771c84a2eafac2b561c9796dda0d8af8e7f5.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/spacebars.js.map"
-                }
-              }
-            },
-            "/packages/launch-screen.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/launch-screen.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/13e1092ebecdb7208762500188f1dc2dea5603e9.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/13e1092ebecdb7208762500188f1dc2dea5603e9.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/launch-screen.js.map"
-                }
-              }
-            },
-            "/packages/global-imports.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/global-imports.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/views/home/template.home.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/client/views/home/template.home.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/views/layouts/template.footer.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/client/views/layouts/template.footer.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/views/layouts/template.header.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/client/views/layouts/template.header.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/views/layouts/template.layout.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/client/views/layouts/template.layout.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/views/shared/template.loading.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/client/views/shared/template.loading.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/views/shared/template.notFound.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/client/views/shared/template.notFound.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/lib/accounts/config.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/lib/accounts/config.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/lib/collections/collection.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/lib/collections/collection.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/lib/routes/config.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/lib/routes/config.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/lib/routes/home.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/lib/routes/home.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/views/home/home.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/client/views/home/home.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/bootstrap/js/transition.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/bootstrap/js/transition.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/bootstrap/js/collapse.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/bootstrap/js/collapse.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/bootstrap/js/dropdown.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/bootstrap/js/dropdown.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/bootstrap/js/modal.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/bootstrap/js/modal.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/bootstrap/js/tooltip.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/bootstrap/js/tooltip.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/bootstrap/js/popover.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/bootstrap/js/popover.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/bootstrap/js/carousel.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/bootstrap/js/carousel.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/bootstrap/js/affix.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/bootstrap/js/affix.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/bootstrap/js/alert.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/bootstrap/js/alert.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/bootstrap/js/button.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/bootstrap/js/button.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/bootstrap/js/scrollspy.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/bootstrap/js/scrollspy.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/bootstrap/js/tab.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/bootstrap/js/tab.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/client/accounts.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/client/accounts.js"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/velocity_test-proxy.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_test-proxy.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/3cfe30136434dab57a1fc9d64a01ad61b559fbea.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/3cfe30136434dab57a1fc9d64a01ad61b559fbea.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_test-proxy.js.map"
-                }
-              }
-            },
-            "/packages/velocity_node-soft-mirror.js": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_node-soft-mirror.js"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/packages/acf27a727fa9aa2f29f237ade3b2046fb9890e36.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "js"
-                }
-              }
-            },
-            "/packages/acf27a727fa9aa2f29f237ade3b2046fb9890e36.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_node-soft-mirror.js.map"
-                }
-              }
-            },
-            "/75826de7f5805df1062133ccbd64241a95362990.css": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/75826de7f5805df1062133ccbd64241a95362990.css"
-                },
-                "sourceMapUrl": {
-                  "type": "constant",
-                  "value": "/75826de7f5805df1062133ccbd64241a95362990.map"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "css"
-                }
-              }
-            },
-            "/75826de7f5805df1062133ccbd64241a95362990.map": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/75826de7f5805df1062133ccbd64241a95362990.css.map"
-                }
-              }
-            },
-            "/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.eot": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.eot"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.svg": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.svg"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.ttf": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.ttf"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.woff": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.woff"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/velocity_html-reporter/lib/velocity_logo.svg": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/velocity_logo.svg"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/velocity_html-reporter/lib/velocity_cog.svg": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/velocity_cog.svg"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/packages/velocity_html-reporter/lib/icon-time.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/icon-time.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/apple-touch-icon-114x114.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/apple-touch-icon-114x114.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/apple-touch-icon-120x120.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/apple-touch-icon-120x120.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/apple-touch-icon-144x144.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/apple-touch-icon-144x144.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/apple-touch-icon-152x152.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/apple-touch-icon-152x152.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/apple-touch-icon-57x57.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/apple-touch-icon-57x57.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/apple-touch-icon-60x60.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/apple-touch-icon-60x60.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/apple-touch-icon-72x72.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/apple-touch-icon-72x72.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/apple-touch-icon-76x76.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/apple-touch-icon-76x76.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/apple-touch-icon-precomposed.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/apple-touch-icon-precomposed.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/apple-touch-icon.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/apple-touch-icon.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/browserconfig.xml": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/browserconfig.xml"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/favicon-160x160.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/favicon-160x160.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/favicon-16x16.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/favicon-16x16.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/favicon-192x192.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/favicon-192x192.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/favicon-32x32.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/favicon-32x32.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/favicon-96x96.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/favicon-96x96.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/favicon.ico": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/favicon.ico"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/mstile-144x144.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/mstile-144x144.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/mstile-150x150.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/mstile-150x150.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/mstile-310x150.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/mstile-310x150.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/mstile-310x310.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/mstile-310x310.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "/images/favicons/mstile-70x70.png": {
-              "type": "object",
-              "members": {
-                "absolutePath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate/.meteor/local/build/programs/web.browser/app/images/favicons/mstile-70x70.png"
-                },
-                "sourceMapUrl": {
-                  "type": "undefined"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "asset"
-                }
-              }
-            },
-            "manifest.json": {
-              "type": "object",
-              "members": {
-                "content": {
-                  "type": "constant",
-                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?81e2f06cff198adaa81b3bc09fc4f3728b7370ec\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/81e2f06cff198adaa81b3bc09fc4f3728b7370ec.map\",\"size\":109437,\"hash\":\"81e2f06cff198adaa81b3bc09fc4f3728b7370ec\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?da8974b7231dd8c0caccb5f322dcf97329d486d1\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/da8974b7231dd8c0caccb5f322dcf97329d486d1.map\",\"size\":25926,\"hash\":\"da8974b7231dd8c0caccb5f322dcf97329d486d1\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?517c8fe8ed6408951a30941e64a5383a7174bcfa\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/517c8fe8ed6408951a30941e64a5383a7174bcfa.map\",\"size\":68185,\"hash\":\"517c8fe8ed6408951a30941e64a5383a7174bcfa\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?ac81167b8513b85b926c167bba423981b0c4cf9c\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/ac81167b8513b85b926c167bba423981b0c4cf9c.map\",\"size\":35647,\"hash\":\"ac81167b8513b85b926c167bba423981b0c4cf9c\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?e8806aa7782b729b2517ebc0cd10b321667f1427\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/e8806aa7782b729b2517ebc0cd10b321667f1427.map\",\"size\":455881,\"hash\":\"e8806aa7782b729b2517ebc0cd10b321667f1427\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?41b62dcceb3ce0de6ca79c6aed088cccde6a44d8\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/41b62dcceb3ce0de6ca79c6aed088cccde6a44d8.map\",\"size\":617153,\"hash\":\"41b62dcceb3ce0de6ca79c6aed088cccde6a44d8\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?052f30e968644b2b39a96605ffee73a7684ff37b\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/052f30e968644b2b39a96605ffee73a7684ff37b.map\",\"size\":147662,\"hash\":\"052f30e968644b2b39a96605ffee73a7684ff37b\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?9a5ea03bf057815385bf569c7acc2c285c005491\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/9a5ea03bf057815385bf569c7acc2c285c005491.map\",\"size\":17152,\"hash\":\"9a5ea03bf057815385bf569c7acc2c285c005491\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/localstorage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/localstorage.js?9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\",\"sourceMap\":\"packages/localstorage.js.map\",\"sourceMapUrl\":\"/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map\",\"size\":7092,\"hash\":\"9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?dd8bac56f8fd3666d433d2285ae01e52597cc51a\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/dd8bac56f8fd3666d433d2285ae01e52597cc51a.map\",\"size\":1296513,\"hash\":\"dd8bac56f8fd3666d433d2285ae01e52597cc51a\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?567eb96d5d22631c03d6aca6afa4c42f0d1295f2\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/567eb96d5d22631c03d6aca6afa4c42f0d1295f2.map\",\"size\":60161,\"hash\":\"567eb96d5d22631c03d6aca6afa4c42f0d1295f2\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?efa68f65e67544b5a05509804bf97e2c91ce75eb\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/efa68f65e67544b5a05509804bf97e2c91ce75eb.map\",\"size\":391530,\"hash\":\"efa68f65e67544b5a05509804bf97e2c91ce75eb\"},{\"path\":\"packages/accounts-base.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-base.js?88bb0577cebfbd40b522bb337f8ff8af92244c2f\",\"sourceMap\":\"packages/accounts-base.js.map\",\"sourceMapUrl\":\"/packages/88bb0577cebfbd40b522bb337f8ff8af92244c2f.map\",\"size\":109093,\"hash\":\"88bb0577cebfbd40b522bb337f8ff8af92244c2f\"},{\"path\":\"packages/sha.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sha.js?65ef52f7221944768bfc2049d6b7e163c8ae2615\",\"sourceMap\":\"packages/sha.js.map\",\"sourceMapUrl\":\"/packages/65ef52f7221944768bfc2049d6b7e163c8ae2615.map\",\"size\":19584,\"hash\":\"65ef52f7221944768bfc2049d6b7e163c8ae2615\"},{\"path\":\"packages/srp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/srp.js?e2e28156e8c912d504a3586351c8a1119f664cfd\",\"sourceMap\":\"packages/srp.js.map\",\"sourceMapUrl\":\"/packages/e2e28156e8c912d504a3586351c8a1119f664cfd.map\",\"size\":173470,\"hash\":\"e2e28156e8c912d504a3586351c8a1119f664cfd\"},{\"path\":\"packages/accounts-password.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-password.js?3845cc71ad2dc1378b7d8cc4164a78359506dd40\",\"sourceMap\":\"packages/accounts-password.js.map\",\"sourceMapUrl\":\"/packages/3845cc71ad2dc1378b7d8cc4164a78359506dd40.map\",\"size\":33170,\"hash\":\"3845cc71ad2dc1378b7d8cc4164a78359506dd40\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?599ba307216da826d8b335332ebcc9a497a369a0\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/599ba307216da826d8b335332ebcc9a497a369a0.map\",\"size\":11910,\"hash\":\"599ba307216da826d8b335332ebcc9a497a369a0\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/iron_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_core.js?d966a1f70c94792fd94c8a155bdbef9bec5e0047\",\"sourceMap\":\"packages/iron_core.js.map\",\"sourceMapUrl\":\"/packages/d966a1f70c94792fd94c8a155bdbef9bec5e0047.map\",\"size\":32915,\"hash\":\"d966a1f70c94792fd94c8a155bdbef9bec5e0047\"},{\"path\":\"packages/iron_dynamic-template.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_dynamic-template.js?d425554c9847e4a80567f8ca55719cd6ae3f2722\",\"sourceMap\":\"packages/iron_dynamic-template.js.map\",\"sourceMapUrl\":\"/packages/d425554c9847e4a80567f8ca55719cd6ae3f2722.map\",\"size\":86389,\"hash\":\"d425554c9847e4a80567f8ca55719cd6ae3f2722\"},{\"path\":\"packages/iron_layout.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_layout.js?4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062\",\"sourceMap\":\"packages/iron_layout.js.map\",\"sourceMapUrl\":\"/packages/4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062.map\",\"size\":62058,\"hash\":\"4e65c46acdaf0ce6a8b1a479d7b9d0b5c0902062\"},{\"path\":\"packages/iron_url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_url.js?6979e41649a22dcf609df30fc533e36037c7ae58\",\"sourceMap\":\"packages/iron_url.js.map\",\"sourceMapUrl\":\"/packages/6979e41649a22dcf609df30fc533e36037c7ae58.map\",\"size\":69302,\"hash\":\"6979e41649a22dcf609df30fc533e36037c7ae58\"},{\"path\":\"packages/iron_middleware-stack.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_middleware-stack.js?0e0f6983a838a6516556b08e62894f89720e2c44\",\"sourceMap\":\"packages/iron_middleware-stack.js.map\",\"sourceMapUrl\":\"/packages/0e0f6983a838a6516556b08e62894f89720e2c44.map\",\"size\":47239,\"hash\":\"0e0f6983a838a6516556b08e62894f89720e2c44\"},{\"path\":\"packages/iron_location.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_location.js?ca4f0f6672edbfb6cafab6e5c024208d9364eac9\",\"sourceMap\":\"packages/iron_location.js.map\",\"sourceMapUrl\":\"/packages/ca4f0f6672edbfb6cafab6e5c024208d9364eac9.map\",\"size\":52275,\"hash\":\"ca4f0f6672edbfb6cafab6e5c024208d9364eac9\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/iron_controller.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_controller.js?b02790701804563eafedb2e68c602154983ade06\",\"sourceMap\":\"packages/iron_controller.js.map\",\"sourceMapUrl\":\"/packages/b02790701804563eafedb2e68c602154983ade06.map\",\"size\":41091,\"hash\":\"b02790701804563eafedb2e68c602154983ade06\"},{\"path\":\"packages/iron_router.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_router.js?a427868585af16bb88b7c9996b2449aebb8dbf51\",\"sourceMap\":\"packages/iron_router.js.map\",\"sourceMapUrl\":\"/packages/a427868585af16bb88b7c9996b2449aebb8dbf51.map\",\"size\":216733,\"hash\":\"a427868585af16bb88b7c9996b2449aebb8dbf51\"},{\"path\":\"packages/useraccounts_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/useraccounts_core.js?340d573e558750fc0594085291b63c493facf666\",\"sourceMap\":\"packages/useraccounts_core.js.map\",\"sourceMapUrl\":\"/packages/340d573e558750fc0594085291b63c493facf666.map\",\"size\":284163,\"hash\":\"340d573e558750fc0594085291b63c493facf666\"},{\"path\":\"packages/coffeescript.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/coffeescript.js?969f68786bbc68e6cad299e74922a53af3d1404b\",\"sourceMap\":\"packages/coffeescript.js.map\",\"sourceMapUrl\":\"/packages/969f68786bbc68e6cad299e74922a53af3d1404b.map\",\"size\":1294,\"hash\":\"969f68786bbc68e6cad299e74922a53af3d1404b\"},{\"path\":\"packages/softwarerero_accounts-t9n.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/softwarerero_accounts-t9n.js?4979cb752c12f089d38eb01cd3df6a744b45f5b4\",\"sourceMap\":\"packages/softwarerero_accounts-t9n.js.map\",\"sourceMapUrl\":\"/packages/4979cb752c12f089d38eb01cd3df6a744b45f5b4.map\",\"size\":135304,\"hash\":\"4979cb752c12f089d38eb01cd3df6a744b45f5b4\"},{\"path\":\"packages/useraccounts_bootstrap.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/useraccounts_bootstrap.js?ae73de95a52cbd1f4ff586494851df89a4095e16\",\"sourceMap\":\"packages/useraccounts_bootstrap.js.map\",\"sourceMapUrl\":\"/packages/ae73de95a52cbd1f4ff586494851df89a4095e16.map\",\"size\":103091,\"hash\":\"ae73de95a52cbd1f4ff586494851df89a4095e16\"},{\"path\":\"packages/alanning_roles.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/alanning_roles.js?79ec06e46df4edfbc286f83d1ad8064d46d44990\",\"sourceMap\":\"packages/alanning_roles.js.map\",\"sourceMapUrl\":\"/packages/79ec06e46df4edfbc286f83d1ad8064d46d44990.map\",\"size\":94498,\"hash\":\"79ec06e46df4edfbc286f83d1ad8064d46d44990\"},{\"path\":\"packages/wizonesolutions_underscore-string.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/wizonesolutions_underscore-string.js?cb524440e4e5eefc5be77f6b2df5d2c0d85d49dc\",\"sourceMap\":\"packages/wizonesolutions_underscore-string.js.map\",\"sourceMapUrl\":\"/packages/cb524440e4e5eefc5be77f6b2df5d2c0d85d49dc.map\",\"size\":84636,\"hash\":\"cb524440e4e5eefc5be77f6b2df5d2c0d85d49dc\"},{\"path\":\"packages/zimme_iron-router-active.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/zimme_iron-router-active.js?ba8ca19a10973351750da7586ef45c7bfdb13035\",\"sourceMap\":\"packages/zimme_iron-router-active.js.map\",\"sourceMapUrl\":\"/packages/ba8ca19a10973351750da7586ef45c7bfdb13035.map\",\"size\":4369,\"hash\":\"ba8ca19a10973351750da7586ef45c7bfdb13035\"},{\"path\":\"packages/cmather_handlebars-server.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/cmather_handlebars-server.js?c6447646a77dd2f090e33422fff58fbec1bbd4f6\",\"sourceMap\":\"packages/cmather_handlebars-server.js.map\",\"sourceMapUrl\":\"/packages/c6447646a77dd2f090e33422fff58fbec1bbd4f6.map\",\"size\":1310,\"hash\":\"c6447646a77dd2f090e33422fff58fbec1bbd4f6\"},{\"path\":\"packages/dburles_collection-helpers.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/dburles_collection-helpers.js?10b8845e36a7fe0526609cd1095b7dae30b9ed8e\",\"sourceMap\":\"packages/dburles_collection-helpers.js.map\",\"sourceMapUrl\":\"/packages/10b8845e36a7fe0526609cd1095b7dae30b9ed8e.map\",\"size\":3586,\"hash\":\"10b8845e36a7fe0526609cd1095b7dae30b9ed8e\"},{\"path\":\"packages/reywood_publish-composite.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reywood_publish-composite.js?f8a4b4678e93f2105df0857cbdfdac20530f2702\",\"sourceMap\":\"packages/reywood_publish-composite.js.map\",\"sourceMapUrl\":\"/packages/f8a4b4678e93f2105df0857cbdfdac20530f2702.map\",\"size\":1310,\"hash\":\"f8a4b4678e93f2105df0857cbdfdac20530f2702\"},{\"path\":\"packages/mrt_moment.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_moment.js?d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\",\"sourceMap\":\"packages/mrt_moment.js.map\",\"sourceMapUrl\":\"/packages/d7e4a40c3c8d0a0bbca78591d0b5385f3271212c.map\",\"size\":359656,\"hash\":\"d7e4a40c3c8d0a0bbca78591d0b5385f3271212c\"},{\"path\":\"packages/mrt_underscore-string-latest.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_underscore-string-latest.js?a38ecc39a67ea4036d5d875dd102f3d8ad73174d\",\"sourceMap\":\"packages/mrt_underscore-string-latest.js.map\",\"sourceMapUrl\":\"/packages/a38ecc39a67ea4036d5d875dd102f3d8ad73174d.map\",\"size\":84515,\"hash\":\"a38ecc39a67ea4036d5d875dd102f3d8ad73174d\"},{\"path\":\"packages/matb33_collection-hooks.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/matb33_collection-hooks.js?9dd7a5c2e0789de54c28fa2bd27fbc6e5e7833fa\",\"sourceMap\":\"packages/matb33_collection-hooks.js.map\",\"sourceMapUrl\":\"/packages/9dd7a5c2e0789de54c28fa2bd27fbc6e5e7833fa.map\",\"size\":72984,\"hash\":\"9dd7a5c2e0789de54c28fa2bd27fbc6e5e7833fa\"},{\"path\":\"packages/dburles_factory.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/dburles_factory.js?ec6c42c3dfd8ca1b5834bd097904221bce1f1288\",\"sourceMap\":\"packages/dburles_factory.js.map\",\"sourceMapUrl\":\"/packages/ec6c42c3dfd8ca1b5834bd097904221bce1f1288.map\",\"size\":13615,\"hash\":\"ec6c42c3dfd8ca1b5834bd097904221bce1f1288\"},{\"path\":\"packages/anti_fake.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/anti_fake.js?03ad503f3edf8bf4d8164dc17f94e65d6f56c6ad\",\"sourceMap\":\"packages/anti_fake.js.map\",\"sourceMapUrl\":\"/packages/03ad503f3edf8bf4d8164dc17f94e65d6f56c6ad.map\",\"size\":25176,\"hash\":\"03ad503f3edf8bf4d8164dc17f94e65d6f56c6ad\"},{\"path\":\"packages/cunneen_mailgun.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/cunneen_mailgun.js?cc2e1bd8273f433a11fd3b142741d361dc533071\",\"sourceMap\":\"packages/cunneen_mailgun.js.map\",\"sourceMapUrl\":\"/packages/cc2e1bd8273f433a11fd3b142741d361dc533071.map\",\"size\":1364,\"hash\":\"cc2e1bd8273f433a11fd3b142741d361dc533071\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?e436deefadc999c21b6fd16e8e1ecce55c3c3a55\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/e436deefadc999c21b6fd16e8e1ecce55c3c3a55.map\",\"size\":6497,\"hash\":\"e436deefadc999c21b6fd16e8e1ecce55c3c3a55\"},{\"path\":\"packages/yasinuslu_blaze-meta.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/yasinuslu_blaze-meta.js?7ef4c16332798864c7f94758409967c40858b01f\",\"sourceMap\":\"packages/yasinuslu_blaze-meta.js.map\",\"sourceMapUrl\":\"/packages/7ef4c16332798864c7f94758409967c40858b01f.map\",\"size\":14078,\"hash\":\"7ef4c16332798864c7f94758409967c40858b01f\"},{\"path\":\"packages/nemo64_bootstrap-data.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/nemo64_bootstrap-data.js?5668c42202b40f6c6ea45d87def47b9c6ced760c\",\"sourceMap\":\"packages/nemo64_bootstrap-data.js.map\",\"sourceMapUrl\":\"/packages/5668c42202b40f6c6ea45d87def47b9c6ced760c.map\",\"size\":1388,\"hash\":\"5668c42202b40f6c6ea45d87def47b9c6ced760c\"},{\"path\":\"packages/nemo64_bootstrap.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/nemo64_bootstrap.js?ec67e21097838440b595b9cec9f3aca5493efadb\",\"sourceMap\":\"packages/nemo64_bootstrap.js.map\",\"sourceMapUrl\":\"/packages/ec67e21097838440b595b9cec9f3aca5493efadb.map\",\"size\":1431,\"hash\":\"ec67e21097838440b595b9cec9f3aca5493efadb\"},{\"path\":\"packages/service-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/service-configuration.js?262da6fb1e9c97be84333c429c9a2929c80f8e3b\",\"sourceMap\":\"packages/service-configuration.js.map\",\"sourceMapUrl\":\"/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map\",\"size\":5082,\"hash\":\"262da6fb1e9c97be84333c429c9a2929c80f8e3b\"},{\"path\":\"packages/accounts-ui-unstyled.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-ui-unstyled.js?1ac0cc1f87f6e64d6cfbf5cab2e606405bb49183\",\"sourceMap\":\"packages/accounts-ui-unstyled.js.map\",\"sourceMapUrl\":\"/packages/1ac0cc1f87f6e64d6cfbf5cab2e606405bb49183.map\",\"size\":249920,\"hash\":\"1ac0cc1f87f6e64d6cfbf5cab2e606405bb49183\"},{\"path\":\"packages/accounts-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-ui.js?1ff79db616cce9b320fe8aed6103eded31248467\",\"sourceMap\":\"packages/accounts-ui.js.map\",\"sourceMapUrl\":\"/packages/1ff79db616cce9b320fe8aed6103eded31248467.map\",\"size\":1346,\"hash\":\"1ff79db616cce9b320fe8aed6103eded31248467\"},{\"path\":\"packages/percolatestudio_percolatestudio-migrations.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/percolatestudio_percolatestudio-migrations.js?0353f762f9f3842bc7ff18b335021afcb51552b7\",\"sourceMap\":\"packages/percolatestudio_percolatestudio-migrations.js.map\",\"sourceMapUrl\":\"/packages/0353f762f9f3842bc7ff18b335021afcb51552b7.map\",\"size\":1327,\"hash\":\"0353f762f9f3842bc7ff18b335021afcb51552b7\"},{\"path\":\"packages/peppelg_on-login-logout.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/peppelg_on-login-logout.js?58272bb1e22336adf7b3627d97d975293e5f30ac\",\"sourceMap\":\"packages/peppelg_on-login-logout.js.map\",\"sourceMapUrl\":\"/packages/58272bb1e22336adf7b3627d97d975293e5f30ac.map\",\"size\":4957,\"hash\":\"58272bb1e22336adf7b3627d97d975293e5f30ac\"},{\"path\":\"packages/percolate_synced-cron.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/percolate_synced-cron.js?96fe89b6369ab8b137588115c2138a6da19409cb\",\"sourceMap\":\"packages/percolate_synced-cron.js.map\",\"sourceMapUrl\":\"/packages/96fe89b6369ab8b137588115c2138a6da19409cb.map\",\"size\":1306,\"hash\":\"96fe89b6369ab8b137588115c2138a6da19409cb\"},{\"path\":\"packages/aldeed_simple-schema.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/aldeed_simple-schema.js?8fda161c43c0ba62801a10b0dfcc3eab75c6db88\",\"sourceMap\":\"packages/aldeed_simple-schema.js.map\",\"sourceMapUrl\":\"/packages/8fda161c43c0ba62801a10b0dfcc3eab75c6db88.map\",\"size\":484169,\"hash\":\"8fda161c43c0ba62801a10b0dfcc3eab75c6db88\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/momentjs_moment.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/momentjs_moment.js?d9d4bbdecdb587b374b97f07e2667b0abaf5c73e\",\"sourceMap\":\"packages/momentjs_moment.js.map\",\"sourceMapUrl\":\"/packages/d9d4bbdecdb587b374b97f07e2667b0abaf5c73e.map\",\"size\":375818,\"hash\":\"d9d4bbdecdb587b374b97f07e2667b0abaf5c73e\"},{\"path\":\"packages/aldeed_collection2.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/aldeed_collection2.js?c35c23c23b5ed785bc3e5b3fb7b1df0c33391790\",\"sourceMap\":\"packages/aldeed_collection2.js.map\",\"sourceMapUrl\":\"/packages/c35c23c23b5ed785bc3e5b3fb7b1df0c33391790.map\",\"size\":70880,\"hash\":\"c35c23c23b5ed785bc3e5b3fb7b1df0c33391790\"},{\"path\":\"packages/aldeed_autoform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/aldeed_autoform.js?b2b90d28d5cc29be68358bb3c8bb8a337992a7dd\",\"sourceMap\":\"packages/aldeed_autoform.js.map\",\"sourceMapUrl\":\"/packages/b2b90d28d5cc29be68358bb3c8bb8a337992a7dd.map\",\"size\":954267,\"hash\":\"b2b90d28d5cc29be68358bb3c8bb8a337992a7dd\"},{\"path\":\"packages/practicalmeteor_chai.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/practicalmeteor_chai.js?7fbbbec9a13f4adf082b394c5ddd7230d84afc48\",\"sourceMap\":\"packages/practicalmeteor_chai.js.map\",\"sourceMapUrl\":\"/packages/7fbbbec9a13f4adf082b394c5ddd7230d84afc48.map\",\"size\":570118,\"hash\":\"7fbbbec9a13f4adf082b394c5ddd7230d84afc48\"},{\"path\":\"packages/practicalmeteor_loglevel.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/practicalmeteor_loglevel.js?9185331dfa11fd235edfbef93838d4ca3244d638\",\"sourceMap\":\"packages/practicalmeteor_loglevel.js.map\",\"sourceMapUrl\":\"/packages/9185331dfa11fd235edfbef93838d4ca3244d638.map\",\"size\":28719,\"hash\":\"9185331dfa11fd235edfbef93838d4ca3244d638\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?cecf2443254038195518d507d5fe0ecdc5dce435\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/cecf2443254038195518d507d5fe0ecdc5dce435.map\",\"size\":12238,\"hash\":\"cecf2443254038195518d507d5fe0ecdc5dce435\"},{\"path\":\"packages/velocity_shim.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_shim.js?14363d085a412115605c41536e4f2867425b89d5\",\"sourceMap\":\"packages/velocity_shim.js.map\",\"sourceMapUrl\":\"/packages/14363d085a412115605c41536e4f2867425b89d5.map\",\"size\":2905,\"hash\":\"14363d085a412115605c41536e4f2867425b89d5\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?a732276f0c2057fc89680d369aad8289b746b7cc\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/a732276f0c2057fc89680d369aad8289b746b7cc.map\",\"size\":557628,\"hash\":\"a732276f0c2057fc89680d369aad8289b746b7cc\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?97f734c1260460f34fb23e644e6a88db38a66a11\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/97f734c1260460f34fb23e644e6a88db38a66a11.map\",\"size\":88652,\"hash\":\"97f734c1260460f34fb23e644e6a88db38a66a11\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?7f53771c84a2eafac2b561c9796dda0d8af8e7f5\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/7f53771c84a2eafac2b561c9796dda0d8af8e7f5.map\",\"size\":42206,\"hash\":\"7f53771c84a2eafac2b561c9796dda0d8af8e7f5\"},{\"path\":\"packages/launch-screen.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/launch-screen.js?13e1092ebecdb7208762500188f1dc2dea5603e9\",\"sourceMap\":\"packages/launch-screen.js.map\",\"sourceMapUrl\":\"/packages/13e1092ebecdb7208762500188f1dc2dea5603e9.map\",\"size\":9707,\"hash\":\"13e1092ebecdb7208762500188f1dc2dea5603e9\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?a8f42582c3d07853b8eed1803cf20714333c9934\",\"size\":1550,\"hash\":\"a8f42582c3d07853b8eed1803cf20714333c9934\"},{\"path\":\"app/client/views/home/template.home.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/home/template.home.js?8c5ddf3f4985df3f5212d9fe7a5d2c63e9b02c56\",\"size\":754,\"hash\":\"8c5ddf3f4985df3f5212d9fe7a5d2c63e9b02c56\"},{\"path\":\"app/client/views/layouts/template.footer.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/layouts/template.footer.js?b00a9554a62b18ad1eaf1978d35646b97433d336\",\"size\":322,\"hash\":\"b00a9554a62b18ad1eaf1978d35646b97433d336\"},{\"path\":\"app/client/views/layouts/template.header.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/layouts/template.header.js?002e7816b1fe8027602f07a9934eb55c5b59eaff\",\"size\":2918,\"hash\":\"002e7816b1fe8027602f07a9934eb55c5b59eaff\"},{\"path\":\"app/client/views/layouts/template.layout.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/layouts/template.layout.js?995d6bb7ce86170751c77382488be8268716085e\",\"size\":704,\"hash\":\"995d6bb7ce86170751c77382488be8268716085e\"},{\"path\":\"app/client/views/shared/template.loading.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/shared/template.loading.js?aba9532fc1c368feb75ff5efb408f4f18d200be0\",\"size\":256,\"hash\":\"aba9532fc1c368feb75ff5efb408f4f18d200be0\"},{\"path\":\"app/client/views/shared/template.notFound.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/shared/template.notFound.js?2f10489228b204fc8fe50c3862618a62a22179ae\",\"size\":351,\"hash\":\"2f10489228b204fc8fe50c3862618a62a22179ae\"},{\"path\":\"app/lib/accounts/config.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/accounts/config.js?bc4fa4d18ae7e593d77b48d884b639695411214d\",\"size\":1057,\"hash\":\"bc4fa4d18ae7e593d77b48d884b639695411214d\"},{\"path\":\"app/lib/collections/collection.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/collections/collection.js?2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\",\"size\":19,\"hash\":\"2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\"},{\"path\":\"app/lib/routes/config.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/routes/config.js?1ada691bc9440a5afdbea6f886dfc73e77775f2e\",\"size\":167,\"hash\":\"1ada691bc9440a5afdbea6f886dfc73e77775f2e\"},{\"path\":\"app/lib/routes/home.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/routes/home.js?d53cb991f6b0b1c9fee93c9d6a67f017ff5aa255\",\"size\":86,\"hash\":\"d53cb991f6b0b1c9fee93c9d6a67f017ff5aa255\"},{\"path\":\"app/client/views/home/home.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/home/home.js?d75ac15c9698c3843956d57d316f28a42ec2751e\",\"size\":61,\"hash\":\"d75ac15c9698c3843956d57d316f28a42ec2751e\"},{\"path\":\"app/bootstrap/js/transition.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/bootstrap/js/transition.js?b50b4578e6bfa341205b376c1179025a53bed2be\",\"size\":1831,\"hash\":\"b50b4578e6bfa341205b376c1179025a53bed2be\"},{\"path\":\"app/bootstrap/js/collapse.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/bootstrap/js/collapse.js?06af2c33960e1fc0f296d386914d8085704c54e3\",\"size\":5977,\"hash\":\"06af2c33960e1fc0f296d386914d8085704c54e3\"},{\"path\":\"app/bootstrap/js/dropdown.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/bootstrap/js/dropdown.js?4dc587579c67092051e658c12f6c8afc1ce5bbcd\",\"size\":4652,\"hash\":\"4dc587579c67092051e658c12f6c8afc1ce5bbcd\"},{\"path\":\"app/bootstrap/js/modal.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/bootstrap/js/modal.js?a5be82cb781571e4e552c589abde5d191abcc1d9\",\"size\":8112,\"hash\":\"a5be82cb781571e4e552c589abde5d191abcc1d9\"},{\"path\":\"app/bootstrap/js/tooltip.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/bootstrap/js/tooltip.js?d2d0c12f566152782fc6cc3b7a0bea6ecc346d0c\",\"size\":15336,\"hash\":\"d2d0c12f566152782fc6cc3b7a0bea6ecc346d0c\"},{\"path\":\"app/bootstrap/js/popover.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/bootstrap/js/popover.js?8b2a82ab4508c2f78db7f96c3575feccf0096b26\",\"size\":3507,\"hash\":\"8b2a82ab4508c2f78db7f96c3575feccf0096b26\"},{\"path\":\"app/bootstrap/js/carousel.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/bootstrap/js/carousel.js?9ac27f10ebdcd6ad1fb1a772a0585543e454b2b3\",\"size\":7041,\"hash\":\"9ac27f10ebdcd6ad1fb1a772a0585543e454b2b3\"},{\"path\":\"app/bootstrap/js/affix.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/bootstrap/js/affix.js?98373701fb65284f67f1579c779ee3d3d31741d8\",\"size\":4791,\"hash\":\"98373701fb65284f67f1579c779ee3d3d31741d8\"},{\"path\":\"app/bootstrap/js/alert.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/bootstrap/js/alert.js?19ad96e250954bdb2ffe8984f670c79c51194842\",\"size\":2260,\"hash\":\"19ad96e250954bdb2ffe8984f670c79c51194842\"},{\"path\":\"app/bootstrap/js/button.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/bootstrap/js/button.js?9905036fb93e275db3e8607d24eb955ed2955fa7\",\"size\":3264,\"hash\":\"9905036fb93e275db3e8607d24eb955ed2955fa7\"},{\"path\":\"app/bootstrap/js/scrollspy.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/bootstrap/js/scrollspy.js?672c5c002976bcb2c949cf37418e925afbf19234\",\"size\":4697,\"hash\":\"672c5c002976bcb2c949cf37418e925afbf19234\"},{\"path\":\"app/bootstrap/js/tab.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/bootstrap/js/tab.js?89467d37ebb25add19b65f4a7f9283e6f08edb49\",\"size\":3789,\"hash\":\"89467d37ebb25add19b65f4a7f9283e6f08edb49\"},{\"path\":\"app/client/accounts.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/accounts.js?2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\",\"size\":19,\"hash\":\"2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\"},{\"path\":\"packages/velocity_test-proxy.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_test-proxy.js?3cfe30136434dab57a1fc9d64a01ad61b559fbea\",\"sourceMap\":\"packages/velocity_test-proxy.js.map\",\"sourceMapUrl\":\"/packages/3cfe30136434dab57a1fc9d64a01ad61b559fbea.map\",\"size\":12770,\"hash\":\"3cfe30136434dab57a1fc9d64a01ad61b559fbea\"},{\"path\":\"packages/velocity_node-soft-mirror.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_node-soft-mirror.js?acf27a727fa9aa2f29f237ade3b2046fb9890e36\",\"sourceMap\":\"packages/velocity_node-soft-mirror.js.map\",\"sourceMapUrl\":\"/packages/acf27a727fa9aa2f29f237ade3b2046fb9890e36.map\",\"size\":11067,\"hash\":\"acf27a727fa9aa2f29f237ade3b2046fb9890e36\"},{\"path\":\"75826de7f5805df1062133ccbd64241a95362990.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/75826de7f5805df1062133ccbd64241a95362990.css\",\"sourceMap\":\"75826de7f5805df1062133ccbd64241a95362990.css.map\",\"sourceMapUrl\":\"/75826de7f5805df1062133ccbd64241a95362990.map\",\"size\":162697,\"hash\":\"75826de7f5805df1062133ccbd64241a95362990\"},{\"path\":\"packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.eot\",\"size\":20335,\"hash\":\"f3a9a3b609133c3d21d6b42abbf7f43bd111df72\"},{\"path\":\"packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.svg\",\"size\":62926,\"hash\":\"66b1fc67e37d01ee45ca75c4eefb144d2dbe98fa\"},{\"path\":\"packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.ttf\",\"size\":41280,\"hash\":\"aafafdc09404c4aa4447d7e898a2183def9cc1b1\"},{\"path\":\"packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nemo64_bootstrap-data/bootstrap/fonts/glyphicons-halflings-regular.woff\",\"size\":23320,\"hash\":\"22037a3455914e5662fa51a596677bdb329e2c5c\"},{\"path\":\"packages/velocity_html-reporter/lib/velocity_logo.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/velocity_logo.svg\",\"size\":3723,\"hash\":\"bd19ecdc8eb1084f7bb562c298e4ce41f9cdc698\"},{\"path\":\"packages/velocity_html-reporter/lib/velocity_cog.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/velocity_cog.svg\",\"size\":987,\"hash\":\"6e74acfffcbd2bafdc8a95d9db7762ece07b1e81\"},{\"path\":\"packages/velocity_html-reporter/lib/icon-time.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/icon-time.png\",\"size\":2834,\"hash\":\"868f492022a4dab0f1522de6aae0773531bc6e85\"},{\"path\":\"app/images/favicons/apple-touch-icon-114x114.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/apple-touch-icon-114x114.png\",\"size\":1327,\"hash\":\"dff121dd5be746b97ac5b844a3e5451b3ff66a23\"},{\"path\":\"app/images/favicons/apple-touch-icon-120x120.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/apple-touch-icon-120x120.png\",\"size\":1321,\"hash\":\"25b39816cfb1efa843b0318d0ae070d0f3d5f054\"},{\"path\":\"app/images/favicons/apple-touch-icon-144x144.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/apple-touch-icon-144x144.png\",\"size\":1520,\"hash\":\"60f7577beebae7c9d1462e92f4b4db1f337b4eec\"},{\"path\":\"app/images/favicons/apple-touch-icon-152x152.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/apple-touch-icon-152x152.png\",\"size\":1603,\"hash\":\"c744fee43f1cbe5078f38407a5c364d520ced8e5\"},{\"path\":\"app/images/favicons/apple-touch-icon-57x57.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/apple-touch-icon-57x57.png\",\"size\":947,\"hash\":\"a0f966bffe87df71b0a3caa5779592311dec1eaf\"},{\"path\":\"app/images/favicons/apple-touch-icon-60x60.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/apple-touch-icon-60x60.png\",\"size\":959,\"hash\":\"0bf4b7c93cc74dfcad53836b35d798631a78a991\"},{\"path\":\"app/images/favicons/apple-touch-icon-72x72.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/apple-touch-icon-72x72.png\",\"size\":994,\"hash\":\"39ea92ff4f8d8d8ec6e7f5660dfd523b3b81135b\"},{\"path\":\"app/images/favicons/apple-touch-icon-76x76.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/apple-touch-icon-76x76.png\",\"size\":1058,\"hash\":\"b36b1064165d6b1c85c558987087941cc270973e\"},{\"path\":\"app/images/favicons/apple-touch-icon-precomposed.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/apple-touch-icon-precomposed.png\",\"size\":2050,\"hash\":\"23c4593acdb79fb4c883776f9ed2ada7c355d78e\"},{\"path\":\"app/images/favicons/apple-touch-icon.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/apple-touch-icon.png\",\"size\":1603,\"hash\":\"c744fee43f1cbe5078f38407a5c364d520ced8e5\"},{\"path\":\"app/images/favicons/browserconfig.xml\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/browserconfig.xml\",\"size\":439,\"hash\":\"597e577c1b90c03ba815625ad7a151b44824bb6d\"},{\"path\":\"app/images/favicons/favicon-160x160.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/favicon-160x160.png\",\"size\":1653,\"hash\":\"d614bf9b6a3570fe7d07f947c3dc894f7e11f238\"},{\"path\":\"app/images/favicons/favicon-16x16.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/favicon-16x16.png\",\"size\":542,\"hash\":\"43e0492ac9ce9abdfd6871a3d0b1f2adc878706b\"},{\"path\":\"app/images/favicons/favicon-192x192.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/favicon-192x192.png\",\"size\":1938,\"hash\":\"0198cc62aee881feac480f3a085451174260d299\"},{\"path\":\"app/images/favicons/favicon-32x32.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/favicon-32x32.png\",\"size\":738,\"hash\":\"8212f13c2f1a24f6e255bc6e455fd6ad73d5c05a\"},{\"path\":\"app/images/favicons/favicon-96x96.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/favicon-96x96.png\",\"size\":1234,\"hash\":\"e602f9011d1046959b7e67db488aca32879f403f\"},{\"path\":\"app/images/favicons/favicon.ico\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/favicon.ico\",\"size\":7406,\"hash\":\"6f759e088a7fd3125d590810eb1d56aff6b28e35\"},{\"path\":\"app/images/favicons/mstile-144x144.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/mstile-144x144.png\",\"size\":1520,\"hash\":\"cdad40640d43d69be43da1ab5b3ec1eae6456f1b\"},{\"path\":\"app/images/favicons/mstile-150x150.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/mstile-150x150.png\",\"size\":1548,\"hash\":\"ea3b0ba3f3dad4561bdb84adbf35fba69ea33295\"},{\"path\":\"app/images/favicons/mstile-310x150.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/mstile-310x150.png\",\"size\":1843,\"hash\":\"ad3b752a613d3a417824d9dbb4fab9ddf37d3093\"},{\"path\":\"app/images/favicons/mstile-310x310.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/mstile-310x310.png\",\"size\":3452,\"hash\":\"aa553cd9e95639c9ec4c98214cd17c76150dd954\"},{\"path\":\"app/images/favicons/mstile-70x70.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/images/favicons/mstile-70x70.png\",\"size\":1259,\"hash\":\"ab415dcc0644be9c2184330758e6e6ef791c40b8\"},{\"path\":\"head.html\",\"where\":\"internal\",\"type\":\"head\",\"hash\":\"093030af836ec1908d47a9051c3f1b052ca96f8f\"}],\"version\":\"c9bccc4a6d9ff5a3951f65399acbc94852c870cd\"}"
-                },
-                "type": {
-                  "type": "constant",
-                  "value": "json"
-                }
-              }
-            }
-          }
-        },
-        "inlineScriptsAllowed": {
-          "type": "function"
-        },
-        "setInlineScriptsAllowed": {
-          "type": "function"
-        },
-        "setBundledJsCssPrefix": {
-          "type": "function"
-        },
-        "addStaticJs": {
-          "type": "function"
-        },
-        "getBoilerplate": {
-          "type": "function"
-        },
-        "additionalStaticJs": {
-          "type": "object"
-        },
-        "refreshableAssets": {
-          "type": "object",
-          "members": {
-            "allCss": {
-              "type": "array"
-            }
-          }
-        }
-      }
     }
   },
   "check": {
@@ -10731,38 +7581,6 @@ var packageMetadata = {
       }
     }
   },
-  "follower-livedata": {
-    "Follower": {
-      "type": "object",
-      "members": {
-        "connect": {
-          "type": "function"
-        }
-      }
-    }
-  },
-  "application-configuration": {
-    "AppConfig": {
-      "type": "object",
-      "members": {
-        "findGalaxy": {
-          "type": "function"
-        },
-        "getAppConfig": {
-          "type": "function"
-        },
-        "getStarForThisJob": {
-          "type": "function"
-        },
-        "configurePackage": {
-          "type": "function"
-        },
-        "configureService": {
-          "type": "function"
-        }
-      }
-    }
-  },
   "binary-heap": {
     "MaxHeap": {
       "type": "function",
@@ -11031,6 +7849,12 @@ var packageMetadata = {
                 "remove": {
                   "type": "function"
                 },
+                "rawCollection": {
+                  "type": "function"
+                },
+                "rawDatabase": {
+                  "type": "function"
+                },
                 "allow": {
                   "type": "function"
                 },
@@ -11059,11 +7883,11 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "LHvyRgCnGaDiNJh2M"
+          "value": "3671450596a94cc51450a2182bf618eb70830f6f"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "0de8edede00bbfad118efc4823aafb739594e8a0"
+          "value": "2737bf9a2acb03bfeae99f1672a19e0ab20a5a38"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
@@ -11082,40 +7906,22 @@ var packageMetadata = {
     "NpmModuleBcrypt": {
       "type": "object",
       "members": {
-        "gen_salt_sync": {
-          "type": "function"
-        },
         "genSaltSync": {
-          "type": "function"
-        },
-        "gen_salt": {
           "type": "function"
         },
         "genSalt": {
           "type": "function"
         },
-        "encrypt_sync": {
-          "type": "function"
-        },
         "hashSync": {
           "type": "function"
         },
-        "encrypt": {
-          "type": "function"
-        },
         "hash": {
-          "type": "function"
-        },
-        "compare_sync": {
           "type": "function"
         },
         "compareSync": {
           "type": "function"
         },
         "compare": {
-          "type": "function"
-        },
-        "get_rounds": {
           "type": "function"
         },
         "getRounds": {
@@ -11140,13 +7946,13 @@ var packageMetadata = {
             }
           }
         },
-        "validateLoginAttempt": {
-          "type": "function"
-        },
         "onLogin": {
           "type": "function"
         },
         "onLoginFailure": {
+          "type": "function"
+        },
+        "validateLoginAttempt": {
           "type": "function"
         },
         "registerLoginHandler": {
@@ -11404,6 +8210,12 @@ var packageMetadata = {
               "type": "function"
             },
             "remove": {
+              "type": "function"
+            },
+            "rawCollection": {
+              "type": "function"
+            },
+            "rawDatabase": {
               "type": "function"
             },
             "allow": {
@@ -11974,6 +8786,9 @@ var packageMetadata = {
                 },
                 "dataNotFound": {
                   "type": "function"
+                },
+                "ensureSignedIn": {
+                  "type": "function"
                 }
               }
             },
@@ -12318,6 +9133,641 @@ var packageMetadata = {
       }
     }
   },
+  "url": {
+    "URL": {
+      "type": "object"
+    }
+  },
+  "http": {
+    "HTTP": {
+      "type": "object",
+      "members": {
+        "get": {
+          "type": "function"
+        },
+        "post": {
+          "type": "function"
+        },
+        "put": {
+          "type": "function"
+        },
+        "del": {
+          "type": "function"
+        },
+        "call": {
+          "type": "function"
+        }
+      }
+    },
+    "HTTPInternals": {
+      "type": "object",
+      "members": {
+        "NpmModules": {
+          "type": "object",
+          "members": {
+            "request": {
+              "type": "object",
+              "members": {
+                "version": {
+                  "type": "constant",
+                  "value": "2.53.0"
+                },
+                "module": {
+                  "type": "function",
+                  "members": {
+                    "get": {
+                      "type": "function"
+                    },
+                    "head": {
+                      "type": "function"
+                    },
+                    "post": {
+                      "type": "function"
+                    },
+                    "put": {
+                      "type": "function"
+                    },
+                    "patch": {
+                      "type": "function"
+                    },
+                    "del": {
+                      "type": "function"
+                    },
+                    "jar": {
+                      "type": "function"
+                    },
+                    "cookie": {
+                      "type": "function"
+                    },
+                    "defaults": {
+                      "type": "function"
+                    },
+                    "forever": {
+                      "type": "function"
+                    },
+                    "Request": {
+                      "type": "function",
+                      "members": {
+                        "super_": {
+                          "type": "function",
+                          "refID": 25,
+                          "members": {
+                            "super_": {
+                              "type": "function",
+                              "members": {
+                                "listenerCount": {
+                                  "type": "function"
+                                },
+                                "prototype": {
+                                  "type": "object",
+                                  "members": {
+                                    "setMaxListeners": {
+                                      "type": "function",
+                                      "refID": 30
+                                    },
+                                    "emit": {
+                                      "type": "function",
+                                      "refID": 32
+                                    },
+                                    "addListener": {
+                                      "type": "function",
+                                      "refID": 34
+                                    },
+                                    "on": {
+                                      "ref": 34
+                                    },
+                                    "once": {
+                                      "type": "function",
+                                      "refID": 36
+                                    },
+                                    "removeListener": {
+                                      "type": "function",
+                                      "refID": 38
+                                    },
+                                    "removeAllListeners": {
+                                      "type": "function",
+                                      "refID": 40
+                                    },
+                                    "listeners": {
+                                      "type": "function",
+                                      "refID": 42
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "Readable": {
+                              "type": "function",
+                              "refID": 44,
+                              "members": {
+                                "ReadableState": {
+                                  "type": "function"
+                                },
+                                "super_": {
+                                  "ref": 25
+                                },
+                                "prototype": {
+                                  "type": "object",
+                                  "members": {
+                                    "push": {
+                                      "type": "function",
+                                      "refID": 48
+                                    },
+                                    "unshift": {
+                                      "type": "function",
+                                      "refID": 50
+                                    },
+                                    "setEncoding": {
+                                      "type": "function",
+                                      "refID": 52
+                                    },
+                                    "read": {
+                                      "type": "function",
+                                      "refID": 54
+                                    },
+                                    "pipe": {
+                                      "type": "function",
+                                      "refID": 56
+                                    },
+                                    "unpipe": {
+                                      "type": "function",
+                                      "refID": 58
+                                    },
+                                    "on": {
+                                      "type": "function",
+                                      "refID": 60
+                                    },
+                                    "addListener": {
+                                      "ref": 60
+                                    },
+                                    "resume": {
+                                      "type": "function",
+                                      "refID": 62
+                                    },
+                                    "pause": {
+                                      "type": "function",
+                                      "refID": 64
+                                    },
+                                    "wrap": {
+                                      "type": "function",
+                                      "refID": 66
+                                    },
+                                    "setMaxListeners": {
+                                      "ref": 30
+                                    },
+                                    "emit": {
+                                      "ref": 32
+                                    },
+                                    "once": {
+                                      "ref": 36
+                                    },
+                                    "removeListener": {
+                                      "ref": 38
+                                    },
+                                    "removeAllListeners": {
+                                      "ref": 40
+                                    },
+                                    "listeners": {
+                                      "ref": 42
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "Writable": {
+                              "type": "function",
+                              "members": {
+                                "WritableState": {
+                                  "type": "function"
+                                },
+                                "super_": {
+                                  "ref": 25
+                                },
+                                "prototype": {
+                                  "type": "object",
+                                  "members": {
+                                    "pipe": {
+                                      "type": "function"
+                                    },
+                                    "write": {
+                                      "type": "function",
+                                      "refID": 74
+                                    },
+                                    "end": {
+                                      "type": "function",
+                                      "refID": 76
+                                    },
+                                    "setMaxListeners": {
+                                      "ref": 30
+                                    },
+                                    "emit": {
+                                      "ref": 32
+                                    },
+                                    "addListener": {
+                                      "ref": 34
+                                    },
+                                    "on": {
+                                      "ref": 34
+                                    },
+                                    "once": {
+                                      "ref": 36
+                                    },
+                                    "removeListener": {
+                                      "ref": 38
+                                    },
+                                    "removeAllListeners": {
+                                      "ref": 40
+                                    },
+                                    "listeners": {
+                                      "ref": 42
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "Duplex": {
+                              "type": "function",
+                              "refID": 78,
+                              "members": {
+                                "super_": {
+                                  "ref": 44
+                                },
+                                "prototype": {
+                                  "type": "object",
+                                  "members": {
+                                    "write": {
+                                      "ref": 74
+                                    },
+                                    "end": {
+                                      "ref": 76
+                                    },
+                                    "push": {
+                                      "ref": 48
+                                    },
+                                    "unshift": {
+                                      "ref": 50
+                                    },
+                                    "setEncoding": {
+                                      "ref": 52
+                                    },
+                                    "read": {
+                                      "ref": 54
+                                    },
+                                    "pipe": {
+                                      "ref": 56
+                                    },
+                                    "unpipe": {
+                                      "ref": 58
+                                    },
+                                    "on": {
+                                      "ref": 60
+                                    },
+                                    "addListener": {
+                                      "ref": 60
+                                    },
+                                    "resume": {
+                                      "ref": 62
+                                    },
+                                    "pause": {
+                                      "ref": 64
+                                    },
+                                    "wrap": {
+                                      "ref": 66
+                                    },
+                                    "setMaxListeners": {
+                                      "ref": 30
+                                    },
+                                    "emit": {
+                                      "ref": 32
+                                    },
+                                    "once": {
+                                      "ref": 36
+                                    },
+                                    "removeListener": {
+                                      "ref": 38
+                                    },
+                                    "removeAllListeners": {
+                                      "ref": 40
+                                    },
+                                    "listeners": {
+                                      "ref": 42
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "Transform": {
+                              "type": "function",
+                              "refID": 80,
+                              "members": {
+                                "super_": {
+                                  "ref": 78
+                                },
+                                "prototype": {
+                                  "type": "object",
+                                  "members": {
+                                    "push": {
+                                      "type": "function",
+                                      "refID": 82
+                                    },
+                                    "write": {
+                                      "ref": 74
+                                    },
+                                    "end": {
+                                      "ref": 76
+                                    },
+                                    "unshift": {
+                                      "ref": 50
+                                    },
+                                    "setEncoding": {
+                                      "ref": 52
+                                    },
+                                    "read": {
+                                      "ref": 54
+                                    },
+                                    "pipe": {
+                                      "ref": 56
+                                    },
+                                    "unpipe": {
+                                      "ref": 58
+                                    },
+                                    "on": {
+                                      "ref": 60
+                                    },
+                                    "addListener": {
+                                      "ref": 60
+                                    },
+                                    "resume": {
+                                      "ref": 62
+                                    },
+                                    "pause": {
+                                      "ref": 64
+                                    },
+                                    "wrap": {
+                                      "ref": 66
+                                    },
+                                    "setMaxListeners": {
+                                      "ref": 30
+                                    },
+                                    "emit": {
+                                      "ref": 32
+                                    },
+                                    "once": {
+                                      "ref": 36
+                                    },
+                                    "removeListener": {
+                                      "ref": 38
+                                    },
+                                    "removeAllListeners": {
+                                      "ref": 40
+                                    },
+                                    "listeners": {
+                                      "ref": 42
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "PassThrough": {
+                              "type": "function",
+                              "members": {
+                                "super_": {
+                                  "ref": 80
+                                },
+                                "prototype": {
+                                  "type": "object",
+                                  "members": {
+                                    "push": {
+                                      "ref": 82
+                                    },
+                                    "write": {
+                                      "ref": 74
+                                    },
+                                    "end": {
+                                      "ref": 76
+                                    },
+                                    "unshift": {
+                                      "ref": 50
+                                    },
+                                    "setEncoding": {
+                                      "ref": 52
+                                    },
+                                    "read": {
+                                      "ref": 54
+                                    },
+                                    "pipe": {
+                                      "ref": 56
+                                    },
+                                    "unpipe": {
+                                      "ref": 58
+                                    },
+                                    "on": {
+                                      "ref": 60
+                                    },
+                                    "addListener": {
+                                      "ref": 60
+                                    },
+                                    "resume": {
+                                      "ref": 62
+                                    },
+                                    "pause": {
+                                      "ref": 64
+                                    },
+                                    "wrap": {
+                                      "ref": 66
+                                    },
+                                    "setMaxListeners": {
+                                      "ref": 30
+                                    },
+                                    "emit": {
+                                      "ref": 32
+                                    },
+                                    "once": {
+                                      "ref": 36
+                                    },
+                                    "removeListener": {
+                                      "ref": 38
+                                    },
+                                    "removeAllListeners": {
+                                      "ref": 40
+                                    },
+                                    "listeners": {
+                                      "ref": 42
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "Stream": {
+                              "ref": 25
+                            },
+                            "prototype": {
+                              "type": "object",
+                              "members": {
+                                "pipe": {
+                                  "type": "function"
+                                },
+                                "setMaxListeners": {
+                                  "ref": 30
+                                },
+                                "emit": {
+                                  "ref": 32
+                                },
+                                "addListener": {
+                                  "ref": 34
+                                },
+                                "on": {
+                                  "ref": 34
+                                },
+                                "once": {
+                                  "ref": 36
+                                },
+                                "removeListener": {
+                                  "ref": 38
+                                },
+                                "removeAllListeners": {
+                                  "ref": 40
+                                },
+                                "listeners": {
+                                  "ref": 42
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "debug": {
+                          "type": "undefined"
+                        },
+                        "defaultProxyHeaderWhiteList": {
+                          "type": "array"
+                        },
+                        "defaultProxyHeaderExclusiveList": {
+                          "type": "array"
+                        },
+                        "prototype": {
+                          "type": "object",
+                          "members": {
+                            "setupTunnel": {
+                              "type": "function"
+                            },
+                            "init": {
+                              "type": "function"
+                            },
+                            "getNewAgent": {
+                              "type": "function"
+                            },
+                            "start": {
+                              "type": "function"
+                            },
+                            "onRequestError": {
+                              "type": "function"
+                            },
+                            "onRequestResponse": {
+                              "type": "function"
+                            },
+                            "abort": {
+                              "type": "function"
+                            },
+                            "pipeDest": {
+                              "type": "function"
+                            },
+                            "qs": {
+                              "type": "function"
+                            },
+                            "form": {
+                              "type": "function"
+                            },
+                            "multipart": {
+                              "type": "function"
+                            },
+                            "json": {
+                              "type": "function"
+                            },
+                            "getHeader": {
+                              "type": "function"
+                            },
+                            "auth": {
+                              "type": "function"
+                            },
+                            "aws": {
+                              "type": "function"
+                            },
+                            "httpSignature": {
+                              "type": "function"
+                            },
+                            "hawk": {
+                              "type": "function"
+                            },
+                            "oauth": {
+                              "type": "function"
+                            },
+                            "jar": {
+                              "type": "function"
+                            },
+                            "pipe": {
+                              "type": "function"
+                            },
+                            "write": {
+                              "type": "function"
+                            },
+                            "end": {
+                              "type": "function"
+                            },
+                            "pause": {
+                              "type": "function"
+                            },
+                            "resume": {
+                              "type": "function"
+                            },
+                            "destroy": {
+                              "type": "function"
+                            },
+                            "toJSON": {
+                              "type": "function"
+                            },
+                            "setMaxListeners": {
+                              "ref": 30
+                            },
+                            "emit": {
+                              "ref": 32
+                            },
+                            "addListener": {
+                              "ref": 34
+                            },
+                            "on": {
+                              "ref": 34
+                            },
+                            "once": {
+                              "ref": 36
+                            },
+                            "removeListener": {
+                              "ref": 38
+                            },
+                            "removeAllListeners": {
+                              "ref": 40
+                            },
+                            "listeners": {
+                              "ref": 42
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "initParams": {
+                      "type": "function"
+                    },
+                    "debug": {
+                      "type": "undefined"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "useraccounts:core": {
     "AccountsTemplates": {
       "type": "object",
@@ -12325,6 +9775,22 @@ var packageMetadata = {
         "options": {
           "type": "object",
           "members": {
+            "privacyUrl": {
+              "type": "constant",
+              "value": "privacy"
+            },
+            "termsUrl": {
+              "type": "constant",
+              "value": "terms-of-use"
+            },
+            "homeRoutePath": {
+              "type": "constant",
+              "value": "/home"
+            },
+            "redirectTimeout": {
+              "type": "constant",
+              "value": 4000
+            },
             "defaultState": {
               "type": "constant",
               "value": "signIn"
@@ -12332,20 +9798,6 @@ var packageMetadata = {
             "socialLoginStyle": {
               "type": "constant",
               "value": "popup"
-            },
-            "privacyUrl": {
-              "type": "undefined"
-            },
-            "termsUrl": {
-              "type": "undefined"
-            },
-            "homeRoutePath": {
-              "type": "constant",
-              "value": "/"
-            },
-            "redirectTimeout": {
-              "type": "constant",
-              "value": 2000
             },
             "onSubmitHook": {
               "type": "undefined"
@@ -12458,11 +9910,311 @@ var packageMetadata = {
                   "value": "/verify-email"
                 }
               }
+            },
+            "resendVerificationEmail": {
+              "type": "object",
+              "members": {
+                "name": {
+                  "type": "constant",
+                  "value": "atResendVerificationEmail"
+                },
+                "path": {
+                  "type": "constant",
+                  "value": "/send-again"
+                }
+              }
             }
           }
         },
         "INPUT_TYPES": {
           "type": "array"
+        },
+        "texts": {
+          "type": "object",
+          "members": {
+            "button": {
+              "type": "object",
+              "members": {
+                "changePwd": {
+                  "type": "constant",
+                  "value": "updateYourPassword"
+                },
+                "enrollAccount": {
+                  "type": "constant",
+                  "value": "signUp"
+                },
+                "forgotPwd": {
+                  "type": "constant",
+                  "value": "emailResetLink"
+                },
+                "resetPwd": {
+                  "type": "constant",
+                  "value": "setPassword"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "signIn"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "signUp"
+                },
+                "resendVerificationEmail": {
+                  "type": "constant",
+                  "value": "Send email again"
+                }
+              }
+            },
+            "errors": {
+              "type": "object",
+              "members": {
+                "accountsCreationDisabled": {
+                  "type": "constant",
+                  "value": "Client side accounts creation is disabled!!!"
+                },
+                "cannotRemoveService": {
+                  "type": "constant",
+                  "value": "Cannot remove the only active service!"
+                },
+                "captchaVerification": {
+                  "type": "constant",
+                  "value": "Captcha verification failed!"
+                },
+                "loginForbidden": {
+                  "type": "constant",
+                  "value": "error.accounts.Login forbidden"
+                },
+                "mustBeLoggedIn": {
+                  "type": "constant",
+                  "value": "error.accounts.Must be logged in"
+                },
+                "pwdMismatch": {
+                  "type": "constant",
+                  "value": "error.pwdsDontMatch"
+                },
+                "validationErrors": {
+                  "type": "constant",
+                  "value": "Validation Errors"
+                },
+                "verifyEmailFirst": {
+                  "type": "constant",
+                  "value": "Please verify your email first. Check the email and follow the link!"
+                }
+              }
+            },
+            "navSignIn": {
+              "type": "constant",
+              "value": "signIn"
+            },
+            "navSignOut": {
+              "type": "constant",
+              "value": "signOut"
+            },
+            "info": {
+              "type": "object",
+              "members": {
+                "emailSent": {
+                  "type": "constant",
+                  "value": "info.emailSent"
+                },
+                "emailVerified": {
+                  "type": "constant",
+                  "value": "info.emailVerified"
+                },
+                "pwdChanged": {
+                  "type": "constant",
+                  "value": "info.passwordChanged"
+                },
+                "pwdReset": {
+                  "type": "constant",
+                  "value": "info.passwordReset"
+                },
+                "pwdSet": {
+                  "type": "constant",
+                  "value": "Password Set"
+                },
+                "signUpVerifyEmail": {
+                  "type": "constant",
+                  "value": "Successful Registration! Please check your email and follow the instructions."
+                },
+                "verificationEmailSent": {
+                  "type": "constant",
+                  "value": "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder."
+                }
+              }
+            },
+            "inputIcons": {
+              "type": "object",
+              "members": {
+                "isValidating": {
+                  "type": "constant",
+                  "value": "fa fa-spinner fa-spin"
+                },
+                "hasSuccess": {
+                  "type": "constant",
+                  "value": "fa fa-check"
+                },
+                "hasError": {
+                  "type": "constant",
+                  "value": "fa fa-times"
+                }
+              }
+            },
+            "maxAllowedLength": {
+              "type": "constant",
+              "value": "Maximum allowed length"
+            },
+            "minRequiredLength": {
+              "type": "constant",
+              "value": "Minimum required length"
+            },
+            "optionalField": {
+              "type": "constant",
+              "value": "optional"
+            },
+            "pwdLink_pre": {
+              "type": "constant",
+              "value": ""
+            },
+            "pwdLink_link": {
+              "type": "constant",
+              "value": "forgotPassword"
+            },
+            "pwdLink_suff": {
+              "type": "constant",
+              "value": ""
+            },
+            "requiredField": {
+              "type": "constant",
+              "value": "Required Field"
+            },
+            "resendVerificationEmailLink_pre": {
+              "type": "constant",
+              "value": "Verification email lost?"
+            },
+            "resendVerificationEmailLink_link": {
+              "type": "constant",
+              "value": "Send again"
+            },
+            "resendVerificationEmailLink_suff": {
+              "type": "constant",
+              "value": ""
+            },
+            "sep": {
+              "type": "constant",
+              "value": "OR"
+            },
+            "signInLink_pre": {
+              "type": "constant",
+              "value": "ifYouAlreadyHaveAnAccount"
+            },
+            "signInLink_link": {
+              "type": "constant",
+              "value": "signin"
+            },
+            "signInLink_suff": {
+              "type": "constant",
+              "value": ""
+            },
+            "signUpLink_pre": {
+              "type": "constant",
+              "value": "dontHaveAnAccount"
+            },
+            "signUpLink_link": {
+              "type": "constant",
+              "value": "signUp"
+            },
+            "signUpLink_suff": {
+              "type": "constant",
+              "value": ""
+            },
+            "socialAdd": {
+              "type": "constant",
+              "value": "add"
+            },
+            "socialConfigure": {
+              "type": "constant",
+              "value": "configure"
+            },
+            "socialIcons": {
+              "type": "object",
+              "members": {
+                "meteor-developer": {
+                  "type": "constant",
+                  "value": "fa fa-rocket"
+                }
+              }
+            },
+            "socialRemove": {
+              "type": "constant",
+              "value": "remove"
+            },
+            "socialSignIn": {
+              "type": "constant",
+              "value": "signIn"
+            },
+            "socialSignUp": {
+              "type": "constant",
+              "value": "signUp"
+            },
+            "socialWith": {
+              "type": "constant",
+              "value": "with"
+            },
+            "termsPreamble": {
+              "type": "constant",
+              "value": "clickAgree"
+            },
+            "termsPrivacy": {
+              "type": "constant",
+              "value": "privacyPolicy"
+            },
+            "termsAnd": {
+              "type": "constant",
+              "value": "and"
+            },
+            "termsTerms": {
+              "type": "constant",
+              "value": "terms"
+            },
+            "title": {
+              "type": "object",
+              "members": {
+                "changePwd": {
+                  "type": "constant",
+                  "value": "changePassword"
+                },
+                "enrollAccount": {
+                  "type": "constant",
+                  "value": "createAccount"
+                },
+                "forgotPwd": {
+                  "type": "constant",
+                  "value": "resetYourPassword"
+                },
+                "resetPwd": {
+                  "type": "constant",
+                  "value": "resetYourPassword"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "signIn"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "createAccount"
+                },
+                "verifyEmail": {
+                  "type": "constant",
+                  "value": ""
+                },
+                "resendVerificationEmail": {
+                  "type": "constant",
+                  "value": "Send the verification email again"
+                }
+              }
+            }
+          }
         },
         "SPECIAL_FIELDS": {
           "type": "array"
@@ -12486,26 +10238,13 @@ var packageMetadata = {
             "signUp": {
               "type": "object",
               "members": {
-                "path": {
-                  "type": "constant",
-                  "value": "/register"
-                },
                 "name": {
                   "type": "constant",
                   "value": "atSignUp"
-                }
-              }
-            },
-            "forgotPwd": {
-              "type": "object",
-              "members": {
-                "name": {
-                  "type": "constant",
-                  "value": "atForgotPwd"
                 },
                 "path": {
                   "type": "constant",
-                  "value": "/forgot-password"
+                  "value": "/sign-up"
                 }
               }
             },
@@ -13007,11 +10746,11 @@ var packageMetadata = {
                 },
                 "signIn": {
                   "type": "constant",
-                  "value": "登陆"
+                  "value": "登录"
                 },
                 "signin": {
                   "type": "constant",
-                  "value": "登陆"
+                  "value": "登录"
                 },
                 "signOut": {
                   "type": "constant",
@@ -13087,7 +10826,7 @@ var packageMetadata = {
                 },
                 "error.signInRequired": {
                   "type": "constant",
-                  "value": "您必须登陆后才能查看"
+                  "value": "您必须登录后才能查看"
                 },
                 "error.signupCodeIncorrect": {
                   "type": "constant",
@@ -13115,11 +10854,11 @@ var packageMetadata = {
                 },
                 "error.accounts.Invalid login token": {
                   "type": "constant",
-                  "value": "登陆密匙错误"
+                  "value": "登录密匙错误"
                 },
                 "error.accounts.Login forbidden": {
                   "type": "constant",
-                  "value": "登陆被阻止"
+                  "value": "登录被阻止"
                 },
                 "error.accounts.Service unknown": {
                   "type": "constant",
@@ -13127,7 +10866,7 @@ var packageMetadata = {
                 },
                 "error.accounts.Unrecognized options for login request": {
                   "type": "constant",
-                  "value": "登陆请求存在无法识别的选项"
+                  "value": "登录请求存在无法识别的选项"
                 },
                 "error.accounts.User validation failed": {
                   "type": "constant",
@@ -13139,19 +10878,19 @@ var packageMetadata = {
                 },
                 "error.accounts.You are not logged in.": {
                   "type": "constant",
-                  "value": "您还没有登陆。"
+                  "value": "您还没有登录。"
                 },
                 "error.accounts.You've been logged out by the server. Please log in again.": {
                   "type": "constant",
-                  "value": "您被服务器登出了。请重新登陆。"
+                  "value": "您被服务器登出了。请重新登录。"
                 },
                 "error.accounts.Your session has expired. Please log in again.": {
                   "type": "constant",
-                  "value": "会话过期，请重新登陆。"
+                  "value": "会话过期，请重新登录。"
                 },
                 "error.accounts.No matching login attempt found": {
                   "type": "constant",
-                  "value": "未发现对应登陆请求"
+                  "value": "未发现对应登录请求"
                 },
                 "error.accounts.Password is old. Please reset your password.": {
                   "type": "constant",
@@ -13167,7 +10906,7 @@ var packageMetadata = {
                 },
                 "error.accounts.Must be logged in": {
                   "type": "constant",
-                  "value": "必须先登陆"
+                  "value": "必须先登录"
                 },
                 "error.accounts.Need to set a username or email": {
                   "type": "constant",
@@ -13236,11 +10975,11 @@ var packageMetadata = {
                 },
                 "changePassword": {
                   "type": "constant",
-                  "value": "Canviar contrassenya"
+                  "value": "Canviar contrasenya"
                 },
                 "choosePassword": {
                   "type": "constant",
-                  "value": "Escollir contrassenya"
+                  "value": "Escollir contrasenya"
                 },
                 "clickAgree": {
                   "type": "constant",
@@ -13256,7 +10995,7 @@ var packageMetadata = {
                 },
                 "currentPassword": {
                   "type": "constant",
-                  "value": "Contrassenya actual"
+                  "value": "Contrasenya actual"
                 },
                 "dontHaveAnAccount": {
                   "type": "constant",
@@ -13276,7 +11015,7 @@ var packageMetadata = {
                 },
                 "forgotPassword": {
                   "type": "constant",
-                  "value": "Has oblidat la contrassenya?"
+                  "value": "Has oblidat la contrasenya?"
                 },
                 "ifYouAlreadyHaveAnAccount": {
                   "type": "constant",
@@ -13284,11 +11023,11 @@ var packageMetadata = {
                 },
                 "newPassword": {
                   "type": "constant",
-                  "value": "Nova contrassenya"
+                  "value": "Nova contrasenya"
                 },
                 "newPasswordAgain": {
                   "type": "constant",
-                  "value": "Nova contrassenya (repetir)"
+                  "value": "Nova contrasenya (repetir)"
                 },
                 "optional": {
                   "type": "constant",
@@ -13300,15 +11039,15 @@ var packageMetadata = {
                 },
                 "password": {
                   "type": "constant",
-                  "value": "Contrassenya"
+                  "value": "Contrasenya"
                 },
                 "passwordAgain": {
                   "type": "constant",
-                  "value": "Contrassenya (repetir)"
+                  "value": "Contrasenya (repetir)"
                 },
                 "privacyPolicy": {
                   "type": "constant",
-                  "value": "Pòlissa de Privacitat"
+                  "value": "Política de Privacitat"
                 },
                 "remove": {
                   "type": "constant",
@@ -13316,11 +11055,11 @@ var packageMetadata = {
                 },
                 "resetYourPassword": {
                   "type": "constant",
-                  "value": "Resetejar la teva contrassenya"
+                  "value": "Resetejar la teva contrasenya"
                 },
                 "setPassword": {
                   "type": "constant",
-                  "value": "Definir contrassenya"
+                  "value": "Definir contrasenya"
                 },
                 "sign": {
                   "type": "constant",
@@ -13352,11 +11091,11 @@ var packageMetadata = {
                 },
                 "terms": {
                   "type": "constant",
-                  "value": "Térmes d'ús"
+                  "value": "Termes d'ús"
                 },
                 "updateYourPassword": {
                   "type": "constant",
-                  "value": "Actualitzar la teva contrassenya"
+                  "value": "Actualitzar la teva contrasenya"
                 },
                 "username": {
                   "type": "constant",
@@ -13380,11 +11119,11 @@ var packageMetadata = {
                 },
                 "info.passwordChanged": {
                   "type": "constant",
-                  "value": "Contrassenya canviada"
+                  "value": "Contrasenya canviada"
                 },
                 "info.passwordReset": {
                   "type": "constant",
-                  "value": "Reiniciar contrassenya"
+                  "value": "Reiniciar contrasenya"
                 },
                 "error.emailRequired": {
                   "type": "constant",
@@ -13396,7 +11135,7 @@ var packageMetadata = {
                 },
                 "error.pwdsDontMatch": {
                   "type": "constant",
-                  "value": "Les contrassenyes no coincideixen"
+                  "value": "Les contrasenyes no coincideixen"
                 },
                 "error.pwOneDigit": {
                   "type": "constant",
@@ -13452,7 +11191,7 @@ var packageMetadata = {
                 },
                 "error.accounts.Incorrect password": {
                   "type": "constant",
-                  "value": "Contrassenya invàlida"
+                  "value": "Contrasenya invàlida"
                 },
                 "error.accounts.Must be logged in": {
                   "type": "constant",
@@ -13476,7 +11215,7 @@ var packageMetadata = {
                 },
                 "error.accounts.User has no password set": {
                   "type": "constant",
-                  "value": "Usuario no té contrassenya"
+                  "value": "Usuari no té contrasenya"
                 },
                 "error.accounts.User not found": {
                   "type": "constant",
@@ -13484,11 +11223,11 @@ var packageMetadata = {
                 },
                 "error.accounts.Verify email link expired": {
                   "type": "constant",
-                  "value": "L'enllaç per verificar el correu ha expirat"
+                  "value": "L'enllaç per a verificar el correu ha expirat"
                 },
                 "error.accounts.Verify email link is for unknown address": {
                   "type": "constant",
-                  "value": "L'enllaç per verificar el correu conté una adreça desconeguda"
+                  "value": "L'enllaç per a verificar el correu conté una adreça desconeguda"
                 }
               }
             },
@@ -14171,7 +11910,7 @@ var packageMetadata = {
                 },
                 "createAccount": {
                   "type": "constant",
-                  "value": "Konto erzeugen"
+                  "value": "Konto erstellen"
                 },
                 "currentPassword": {
                   "type": "constant",
@@ -14205,7 +11944,7 @@ var packageMetadata = {
                   "type": "constant",
                   "value": "Neues Passwort"
                 },
-                "newPasswortAgain": {
+                "newPasswordAgain": {
                   "type": "constant",
                   "value": "Neues Passwort (wiederholen)"
                 },
@@ -14239,7 +11978,7 @@ var packageMetadata = {
                 },
                 "setPassword": {
                   "type": "constant",
-                  "value": "Passwort bestimmen"
+                  "value": "Passwort festlegen"
                 },
                 "sign": {
                   "type": "constant",
@@ -14297,11 +12036,11 @@ var packageMetadata = {
                   "type": "constant",
                   "value": "E-Mail verifiziert"
                 },
-                "info.PasswortChanged": {
+                "info.PasswordChanged": {
                   "type": "constant",
                   "value": "Passwort geändert"
                 },
-                "info.PasswortReset": {
+                "info.PasswordReset": {
                   "type": "constant",
                   "value": "Passwort zurückgesetzt"
                 },
@@ -14311,7 +12050,7 @@ var packageMetadata = {
                 },
                 "error.minChar": {
                   "type": "constant",
-                  "value": "Passwort muss mindesten 7 Zeichen lang sein."
+                  "value": "Passwort muss mindestens 7 Zeichen lang sein."
                 },
                 "error.pwdsDontMatch": {
                   "type": "constant",
@@ -14339,7 +12078,7 @@ var packageMetadata = {
                 },
                 "error.usernameIsEmail": {
                   "type": "constant",
-                  "value": "Benutzername kann nicht eine E-Mail."
+                  "value": "Benutzername darf keine E-Mail Adresse sein."
                 },
                 "error.usernameRequired": {
                   "type": "constant",
@@ -14347,19 +12086,19 @@ var packageMetadata = {
                 },
                 "error.accounts.Email already exists.": {
                   "type": "constant",
-                  "value": "Die E-Mail Adresse ist bereits vergeben."
+                  "value": "Die E-Mail Adresse wird bereits verwendet."
                 },
                 "error.accounts.Email doesn't match the criteria.": {
                   "type": "constant",
-                  "value": "E-Mail Adresse erfüllt nicht die Anforderungen."
+                  "value": "E-Mail Adresse erfüllt die Anforderungen nicht."
                 },
                 "error.accounts.Invalid login token": {
                   "type": "constant",
-                  "value": "Ungültiger Login Token"
+                  "value": "Ungültiger Login-Token"
                 },
                 "error.accounts.Login forbidden": {
                   "type": "constant",
-                  "value": "Anmeldung verboten"
+                  "value": "Anmeldedaten ungültig"
                 },
                 "error.accounts.Service unknown": {
                   "type": "constant",
@@ -14371,11 +12110,11 @@ var packageMetadata = {
                 },
                 "error.accounts.User validation failed": {
                   "type": "constant",
-                  "value": "Die Benutzerdaten scheinen nicht korrekt"
+                  "value": "Die Benutzerdaten sind nicht korrekt"
                 },
                 "error.accounts.Username already exists.": {
                   "type": "constant",
-                  "value": "Den Benutzer gibt es schon."
+                  "value": "Der Benutzer existiert bereits."
                 },
                 "error.accounts.You are not logged in.": {
                   "type": "constant",
@@ -14393,13 +12132,13 @@ var packageMetadata = {
                   "type": "constant",
                   "value": "Kein passender Loginversuch gefunden."
                 },
-                "error.accounts.Passwort is old. Please reset your Passwort.": {
+                "error.accounts.Password is old. Please reset your password.": {
                   "type": "constant",
                   "value": "Passwort ist abgelaufen. Bitte setzen Sie es zurück."
                 },
-                "error.accounts.Incorrect Passwort": {
+                "error.accounts.Incorrect password": {
                   "type": "constant",
-                  "value": "Falschen Passwort"
+                  "value": "Falsches Passwort"
                 },
                 "error.accounts.Invalid email": {
                   "type": "constant",
@@ -14413,13 +12152,13 @@ var packageMetadata = {
                   "type": "constant",
                   "value": "Benutzername oder E-Mail Adresse müssen angegeben werden"
                 },
-                "error.accounts.Passwort may not be empty": {
+                "error.accounts.Password may not be empty": {
                   "type": "constant",
                   "value": "Das Passwort darf nicht leer sein"
                 },
                 "error.accounts.Signups forbidden": {
                   "type": "constant",
-                  "value": "Anmeldungen sind verboten"
+                  "value": "Anmeldungen sind nicht erlaubt"
                 },
                 "error.accounts.Token expired": {
                   "type": "constant",
@@ -14429,7 +12168,7 @@ var packageMetadata = {
                   "type": "constant",
                   "value": "E-Mail Adresse passt nicht zum Token"
                 },
-                "error.accounts.User has no Passwort set": {
+                "error.accounts.User has no password set": {
                   "type": "constant",
                   "value": "Kein Passwort für den Benutzer angegeben"
                 },
@@ -16602,6 +14341,327 @@ var packageMetadata = {
                 }
               }
             },
+            "hr": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "constant",
+                  "value": "dodaj"
+                },
+                "and": {
+                  "type": "constant",
+                  "value": "i"
+                },
+                "back": {
+                  "type": "constant",
+                  "value": "nazad"
+                },
+                "changePassword": {
+                  "type": "constant",
+                  "value": "Promjeni zaporku"
+                },
+                "choosePassword": {
+                  "type": "constant",
+                  "value": "Izaberi zaporku"
+                },
+                "clickAgree": {
+                  "type": "constant",
+                  "value": "Klikom na Registracija, prihvatate naše"
+                },
+                "configure": {
+                  "type": "constant",
+                  "value": "Podesi"
+                },
+                "createAccount": {
+                  "type": "constant",
+                  "value": "Napravite račun"
+                },
+                "currentPassword": {
+                  "type": "constant",
+                  "value": "Trenutna zaporka"
+                },
+                "dontHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Vi nemate račun?"
+                },
+                "email": {
+                  "type": "constant",
+                  "value": "Email"
+                },
+                "emailAddress": {
+                  "type": "constant",
+                  "value": "Email adresa"
+                },
+                "emailResetLink": {
+                  "type": "constant",
+                  "value": "Email reset link"
+                },
+                "forgotPassword": {
+                  "type": "constant",
+                  "value": "Zaboravili ste zaporku?"
+                },
+                "ifYouAlreadyHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Ako već imate račun"
+                },
+                "newPassword": {
+                  "type": "constant",
+                  "value": "Nova zaporka"
+                },
+                "newPasswordAgain": {
+                  "type": "constant",
+                  "value": "Nova zaporka (ponovno)"
+                },
+                "optional": {
+                  "type": "constant",
+                  "value": "neobavezno"
+                },
+                "OR": {
+                  "type": "constant",
+                  "value": "ili"
+                },
+                "password": {
+                  "type": "constant",
+                  "value": "Zaporka"
+                },
+                "passwordAgain": {
+                  "type": "constant",
+                  "value": "Zaporka (ponovno)"
+                },
+                "privacyPolicy": {
+                  "type": "constant",
+                  "value": "Izjava o privatnosti"
+                },
+                "remove": {
+                  "type": "constant",
+                  "value": "ukloni"
+                },
+                "resetYourPassword": {
+                  "type": "constant",
+                  "value": "Resetirajte"
+                },
+                "setPassword": {
+                  "type": "constant",
+                  "value": "Postavite zaporku"
+                },
+                "sign": {
+                  "type": "constant",
+                  "value": "Prijava"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "Prijavi se"
+                },
+                "signin": {
+                  "type": "constant",
+                  "value": "prijavi se"
+                },
+                "signOut": {
+                  "type": "constant",
+                  "value": "Odjavi se"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "Registracija"
+                },
+                "signupCode": {
+                  "type": "constant",
+                  "value": "Registracijski kod"
+                },
+                "signUpWithYourEmailAddress": {
+                  "type": "constant",
+                  "value": "Registrirajte se sa vašom email adresom"
+                },
+                "terms": {
+                  "type": "constant",
+                  "value": "Uslovi korištenja"
+                },
+                "updateYourPassword": {
+                  "type": "constant",
+                  "value": "Ažurirajte lozinku"
+                },
+                "username": {
+                  "type": "constant",
+                  "value": "Korisničko ime"
+                },
+                "usernameOrEmail": {
+                  "type": "constant",
+                  "value": "Korisničko ime ili lozinka"
+                },
+                "with": {
+                  "type": "constant",
+                  "value": "sa"
+                },
+                "info.emailSent": {
+                  "type": "constant",
+                  "value": "Email je poslan"
+                },
+                "info.emailVerified": {
+                  "type": "constant",
+                  "value": "Email je verificiran"
+                },
+                "info.passwordChanged": {
+                  "type": "constant",
+                  "value": "Zaproka promjenjena"
+                },
+                "info.passwordReset": {
+                  "type": "constant",
+                  "value": "Zaporka resetirana"
+                },
+                "error.emailRequired": {
+                  "type": "constant",
+                  "value": "Email je potreban."
+                },
+                "error.minChar": {
+                  "type": "constant",
+                  "value": "Zaporka mora sadržavati više od 7 znakova."
+                },
+                "error.pwdsDontMatch": {
+                  "type": "constant",
+                  "value": "Zaporke se ne poklapaju."
+                },
+                "error.pwOneDigit": {
+                  "type": "constant",
+                  "value": "Zaporka mora sadržavati barem jednu brojku."
+                },
+                "error.pwOneLetter": {
+                  "type": "constant",
+                  "value": "Zaporka mora sadržavati barem jedno slovo."
+                },
+                "error.signInRequired": {
+                  "type": "constant",
+                  "value": "Morate biti prijavljeni za to."
+                },
+                "error.signupCodeIncorrect": {
+                  "type": "constant",
+                  "value": "Registracijski kod je netočan."
+                },
+                "error.signupCodeRequired": {
+                  "type": "constant",
+                  "value": "Registracijski kod je potreban."
+                },
+                "error.usernameIsEmail": {
+                  "type": "constant",
+                  "value": "Korisničko ime ne može biti email."
+                },
+                "error.usernameRequired": {
+                  "type": "constant",
+                  "value": "Korisničko ime je potrebno."
+                },
+                "error.accounts.Email already exists.": {
+                  "type": "constant",
+                  "value": "Email već postoji."
+                },
+                "error.accounts.Email doesn't match the criteria.": {
+                  "type": "constant",
+                  "value": "Email ne zadovoljava kriterij."
+                },
+                "error.accounts.Invalid login token": {
+                  "type": "constant",
+                  "value": "Nevažeći  token za prijavu"
+                },
+                "error.accounts.Login forbidden": {
+                  "type": "constant",
+                  "value": "Prijava zabranjena"
+                },
+                "error.accounts.Service unknown": {
+                  "type": "constant",
+                  "value": "Servis nepoznat"
+                },
+                "error.accounts.Unrecognized options for login request": {
+                  "type": "constant",
+                  "value": "Neprepoznate opcije zahtjeva za prijavu"
+                },
+                "error.accounts.User validation failed": {
+                  "type": "constant",
+                  "value": "Provjera valjanosti za korisnika neuspješna."
+                },
+                "error.accounts.Username already exists.": {
+                  "type": "constant",
+                  "value": "Korisnik već postoji."
+                },
+                "error.accounts.You are not logged in.": {
+                  "type": "constant",
+                  "value": "Niste prijavljeni."
+                },
+                "error.accounts.You've been logged out by the server. Please log in again.": {
+                  "type": "constant",
+                  "value": "Odjavljeni ste sa servera. Molimo Vas ponovno se prijavite."
+                },
+                "error.accounts.Your session has expired. Please log in again.": {
+                  "type": "constant",
+                  "value": "Vaša sesija je istekla. Molimo prijavite se ponovno."
+                },
+                "error.accounts.No matching login attempt found": {
+                  "type": "constant",
+                  "value": "Pokušaj prijave se ne podudara sa podatcima u bazi."
+                },
+                "error.accounts.Password is old. Please reset your password.": {
+                  "type": "constant",
+                  "value": "Zaporka je stara. Molimo resetujte zaporku."
+                },
+                "error.accounts.Incorrect password": {
+                  "type": "constant",
+                  "value": "Netočna zaporka"
+                },
+                "error.accounts.Invalid email": {
+                  "type": "constant",
+                  "value": "Nevažeći email"
+                },
+                "error.accounts.Must be logged in": {
+                  "type": "constant",
+                  "value": "Morate biti prijavljeni"
+                },
+                "error.accounts.Need to set a username or email": {
+                  "type": "constant",
+                  "value": "Morate postaviti korisničko ime ili email"
+                },
+                "error.accounts.old password format": {
+                  "type": "constant",
+                  "value": "stari format zaporke"
+                },
+                "error.accounts.Password may not be empty": {
+                  "type": "constant",
+                  "value": "Zaporka ne može biti prazna"
+                },
+                "error.accounts.Signups forbidden": {
+                  "type": "constant",
+                  "value": "Prijave zabranjenje"
+                },
+                "error.accounts.Token expired": {
+                  "type": "constant",
+                  "value": "Token je istekao"
+                },
+                "error.accounts.Token has invalid email address": {
+                  "type": "constant",
+                  "value": "Token ima nevažeću email adresu"
+                },
+                "error.accounts.User has no password set": {
+                  "type": "constant",
+                  "value": "Korisnik nema postavljenu zaporku"
+                },
+                "error.accounts.User not found": {
+                  "type": "constant",
+                  "value": "Korisnik nije pronađen"
+                },
+                "error.accounts.Verify email link expired": {
+                  "type": "constant",
+                  "value": "Link za verifikaciju emaila je istekao"
+                },
+                "error.accounts.Verify email link is for unknown address": {
+                  "type": "constant",
+                  "value": "Link za verifikaciju emaila je za nepoznatu adresu"
+                },
+                "error.accounts.Match failed": {
+                  "type": "constant",
+                  "value": "Usporedba neuspjela"
+                },
+                "error.accounts.Unknown error": {
+                  "type": "constant",
+                  "value": "Nepoznata pogreška"
+                }
+              }
+            },
             "it": {
               "type": "object",
               "members": {
@@ -16920,6 +14980,327 @@ var packageMetadata = {
                 "error.accounts.Unknown error": {
                   "type": "constant",
                   "value": "Errore Sconosciuto"
+                }
+              }
+            },
+            "ja": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "constant",
+                  "value": "足す"
+                },
+                "and": {
+                  "type": "constant",
+                  "value": "と"
+                },
+                "back": {
+                  "type": "constant",
+                  "value": "戻る"
+                },
+                "changePassword": {
+                  "type": "constant",
+                  "value": "パスワードを変更する"
+                },
+                "choosePassword": {
+                  "type": "constant",
+                  "value": "パスワードを選ぶ"
+                },
+                "clickAgree": {
+                  "type": "constant",
+                  "value": "「登録」をクリックすると同意したことになります"
+                },
+                "configure": {
+                  "type": "constant",
+                  "value": "設定する"
+                },
+                "createAccount": {
+                  "type": "constant",
+                  "value": "アカウントを作る"
+                },
+                "currentPassword": {
+                  "type": "constant",
+                  "value": "現在のパスワード"
+                },
+                "dontHaveAnAccount": {
+                  "type": "constant",
+                  "value": "アカウントをお持ちでは無いですか？"
+                },
+                "email": {
+                  "type": "constant",
+                  "value": "Eメール"
+                },
+                "emailAddress": {
+                  "type": "constant",
+                  "value": "Eメールアドレス"
+                },
+                "emailResetLink": {
+                  "type": "constant",
+                  "value": "Eメールリセットリンク"
+                },
+                "forgotPassword": {
+                  "type": "constant",
+                  "value": "パスワードをお忘れですか？"
+                },
+                "ifYouAlreadyHaveAnAccount": {
+                  "type": "constant",
+                  "value": "もしも既にアカウントをお持ちなら"
+                },
+                "newPassword": {
+                  "type": "constant",
+                  "value": "新パスワード"
+                },
+                "newPasswordAgain": {
+                  "type": "constant",
+                  "value": "新パスワード(確認)"
+                },
+                "optional": {
+                  "type": "constant",
+                  "value": "オプション"
+                },
+                "OR": {
+                  "type": "constant",
+                  "value": "または"
+                },
+                "password": {
+                  "type": "constant",
+                  "value": "パスワード"
+                },
+                "passwordAgain": {
+                  "type": "constant",
+                  "value": "パスワード(確認)"
+                },
+                "privacyPolicy": {
+                  "type": "constant",
+                  "value": "プライバシーポリシー"
+                },
+                "remove": {
+                  "type": "constant",
+                  "value": "削除する"
+                },
+                "resetYourPassword": {
+                  "type": "constant",
+                  "value": "パスワードをリセットする"
+                },
+                "setPassword": {
+                  "type": "constant",
+                  "value": "パスワードを設定する"
+                },
+                "sign": {
+                  "type": "constant",
+                  "value": "サイン"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "サインインする"
+                },
+                "signin": {
+                  "type": "constant",
+                  "value": "サインイン"
+                },
+                "signOut": {
+                  "type": "constant",
+                  "value": "サインアウトする"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "登録する"
+                },
+                "signupCode": {
+                  "type": "constant",
+                  "value": "レジストレーションコード"
+                },
+                "signUpWithYourEmailAddress": {
+                  "type": "constant",
+                  "value": "Eメールアドレスで登録する"
+                },
+                "terms": {
+                  "type": "constant",
+                  "value": "利用条件"
+                },
+                "updateYourPassword": {
+                  "type": "constant",
+                  "value": "パスワードを更新する"
+                },
+                "username": {
+                  "type": "constant",
+                  "value": "ユーザー名"
+                },
+                "usernameOrEmail": {
+                  "type": "constant",
+                  "value": "ユーザー名またはEメール"
+                },
+                "with": {
+                  "type": "constant",
+                  "value": "with"
+                },
+                "info.emailSent": {
+                  "type": "constant",
+                  "value": "Eメールを送りました"
+                },
+                "info.emailVerified": {
+                  "type": "constant",
+                  "value": "Eメールが確認されました"
+                },
+                "info.passwordChanged": {
+                  "type": "constant",
+                  "value": "パスワードが変更されました"
+                },
+                "info.passwordReset": {
+                  "type": "constant",
+                  "value": "パスワードがリセットされました"
+                },
+                "error.emailRequired": {
+                  "type": "constant",
+                  "value": "Eメールが必要です"
+                },
+                "error.minChar": {
+                  "type": "constant",
+                  "value": "パスワードには最低7文字必要です"
+                },
+                "error.pwdsDontMatch": {
+                  "type": "constant",
+                  "value": "パスワードが違います"
+                },
+                "error.pwOneDigit": {
+                  "type": "constant",
+                  "value": "パスワードは少なくとも1つ数字を含む必要があります"
+                },
+                "error.pwOneLetter": {
+                  "type": "constant",
+                  "value": "パスワードは少なく遠m1つアルファベットを含む必要があります"
+                },
+                "error.signInRequired": {
+                  "type": "constant",
+                  "value": "その操作にはサインインが必要です"
+                },
+                "error.signupCodeIncorrect": {
+                  "type": "constant",
+                  "value": "レジストレーションコードが間違っています"
+                },
+                "error.signupCodeRequired": {
+                  "type": "constant",
+                  "value": "レジストレーションコードが必要です"
+                },
+                "error.usernameIsEmail": {
+                  "type": "constant",
+                  "value": "ユーザー名にEメールアドレスは使えません"
+                },
+                "error.usernameRequired": {
+                  "type": "constant",
+                  "value": "ユーザー名が必要です"
+                },
+                "error.accounts.Email already exists.": {
+                  "type": "constant",
+                  "value": "そのEメールは既に登録されています"
+                },
+                "error.accounts.Email doesn't match the criteria.": {
+                  "type": "constant",
+                  "value": "Eメールが基準を満たしていません"
+                },
+                "error.accounts.Invalid login token": {
+                  "type": "constant",
+                  "value": "無効なログイントークンです"
+                },
+                "error.accounts.Login forbidden": {
+                  "type": "constant",
+                  "value": "ログインが許可されません"
+                },
+                "error.accounts.Service unknown": {
+                  "type": "constant",
+                  "value": "サービスが不明です"
+                },
+                "error.accounts.Unrecognized options for login request": {
+                  "type": "constant",
+                  "value": "ログインリクエストのオプションが認識できません"
+                },
+                "error.accounts.User validation failed": {
+                  "type": "constant",
+                  "value": "ユーザー確認できません"
+                },
+                "error.accounts.Username already exists.": {
+                  "type": "constant",
+                  "value": "そのユーザー名は既に使われています"
+                },
+                "error.accounts.You are not logged in.": {
+                  "type": "constant",
+                  "value": "ログインしていません"
+                },
+                "error.accounts.You've been logged out by the server. Please log in again.": {
+                  "type": "constant",
+                  "value": "ログアウトされました。再度ログインしてください"
+                },
+                "error.accounts.Your session has expired. Please log in again.": {
+                  "type": "constant",
+                  "value": "セッションが切れました。再度ログインしてください"
+                },
+                "error.accounts.No matching login attempt found": {
+                  "type": "constant",
+                  "value": "対応のログイン試行が見つかりません"
+                },
+                "error.accounts.Password is old. Please reset your password.": {
+                  "type": "constant",
+                  "value": "パスワードが古くなりました。パスワードをリセットしてください"
+                },
+                "error.accounts.Incorrect password": {
+                  "type": "constant",
+                  "value": "パスワードが正しくありません"
+                },
+                "error.accounts.Invalid email": {
+                  "type": "constant",
+                  "value": "Eメールが無効です"
+                },
+                "error.accounts.Must be logged in": {
+                  "type": "constant",
+                  "value": "ログインが必要です"
+                },
+                "error.accounts.Need to set a username or email": {
+                  "type": "constant",
+                  "value": "ユーザー名かEメールを設定する必要があります"
+                },
+                "error.accounts.old password format": {
+                  "type": "constant",
+                  "value": "パスワード形式が古いものです"
+                },
+                "error.accounts.Password may not be empty": {
+                  "type": "constant",
+                  "value": "パスワードが入力されていないようです"
+                },
+                "error.accounts.Signups forbidden": {
+                  "type": "constant",
+                  "value": "サインアップが禁止されています"
+                },
+                "error.accounts.Token expired": {
+                  "type": "constant",
+                  "value": "トークンが切れました"
+                },
+                "error.accounts.Token has invalid email address": {
+                  "type": "constant",
+                  "value": "トークンが無効なEメールアドレスを含んでいます"
+                },
+                "error.accounts.User has no password set": {
+                  "type": "constant",
+                  "value": "パスワードが設定されていません"
+                },
+                "error.accounts.User not found": {
+                  "type": "constant",
+                  "value": "ユーザーが見つかりません"
+                },
+                "error.accounts.Verify email link expired": {
+                  "type": "constant",
+                  "value": "Eメールリンクが切れたか確認する"
+                },
+                "error.accounts.Verify email link is for unknown address": {
+                  "type": "constant",
+                  "value": "Eメールリンクが不明なアドレス用か確認する"
+                },
+                "error.accounts.Match failed": {
+                  "type": "constant",
+                  "value": "一致しませんでした"
+                },
+                "error.accounts.Unknown error": {
+                  "type": "constant",
+                  "value": "不明なエラー"
                 }
               }
             },
@@ -17562,6 +15943,327 @@ var packageMetadata = {
                 "error.accounts.Unknown error": {
                   "type": "constant",
                   "value": "Erro desconhecido"
+                }
+              }
+            },
+            "ro": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "constant",
+                  "value": "adaugă"
+                },
+                "and": {
+                  "type": "constant",
+                  "value": "și"
+                },
+                "back": {
+                  "type": "constant",
+                  "value": "înapoi"
+                },
+                "changePassword": {
+                  "type": "constant",
+                  "value": "Schimbare parolă"
+                },
+                "choosePassword": {
+                  "type": "constant",
+                  "value": "Alege o parolă"
+                },
+                "clickAgree": {
+                  "type": "constant",
+                  "value": "Click pe Register, sunteți de acord"
+                },
+                "configure": {
+                  "type": "constant",
+                  "value": "Configurare"
+                },
+                "createAccount": {
+                  "type": "constant",
+                  "value": "Creați un cont"
+                },
+                "currentPassword": {
+                  "type": "constant",
+                  "value": "Parola curentă"
+                },
+                "dontHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Nu ai un cont?"
+                },
+                "email": {
+                  "type": "constant",
+                  "value": "E-mail"
+                },
+                "emailAddress": {
+                  "type": "constant",
+                  "value": "Adresa de e-mail"
+                },
+                "emailResetLink": {
+                  "type": "constant",
+                  "value": "Link de resetare parolă"
+                },
+                "forgotPassword": {
+                  "type": "constant",
+                  "value": "Ți-ai uitat parola?"
+                },
+                "ifYouAlreadyHaveAnAccount": {
+                  "type": "constant",
+                  "value": "Dacă ai deja un cont"
+                },
+                "newPassword": {
+                  "type": "constant",
+                  "value": "Parolă nouă"
+                },
+                "newPasswordAgain": {
+                  "type": "constant",
+                  "value": "Parolă nouă (din nou)"
+                },
+                "optional": {
+                  "type": "constant",
+                  "value": "Opțional"
+                },
+                "OR": {
+                  "type": "constant",
+                  "value": "SAU"
+                },
+                "password": {
+                  "type": "constant",
+                  "value": "Parolă"
+                },
+                "passwordAgain": {
+                  "type": "constant",
+                  "value": "Parolă (din nou)"
+                },
+                "privacyPolicy": {
+                  "type": "constant",
+                  "value": "Politica de confidentialitate"
+                },
+                "remove": {
+                  "type": "constant",
+                  "value": "Elimină"
+                },
+                "resetYourPassword": {
+                  "type": "constant",
+                  "value": "Schimbati parola"
+                },
+                "setPassword": {
+                  "type": "constant",
+                  "value": "Setati parola"
+                },
+                "sign": {
+                  "type": "constant",
+                  "value": "Înregistrează"
+                },
+                "signIn": {
+                  "type": "constant",
+                  "value": "Autentificare"
+                },
+                "signin": {
+                  "type": "constant",
+                  "value": "Autentificare"
+                },
+                "signOut": {
+                  "type": "constant",
+                  "value": "Deconectare"
+                },
+                "signUp": {
+                  "type": "constant",
+                  "value": "Înregistrare"
+                },
+                "signupCode": {
+                  "type": "constant",
+                  "value": "Codul de înregistrare"
+                },
+                "signUpWithYourEmailAddress": {
+                  "type": "constant",
+                  "value": "Înregistrați-vă adresa de e-mail"
+                },
+                "terms": {
+                  "type": "constant",
+                  "value": "Condiții de utilizare"
+                },
+                "updateYourPassword": {
+                  "type": "constant",
+                  "value": "Actualizați parola dvs."
+                },
+                "username": {
+                  "type": "constant",
+                  "value": "Nume utilizator"
+                },
+                "usernameOrEmail": {
+                  "type": "constant",
+                  "value": "Nume utilizator sau e-mail"
+                },
+                "with": {
+                  "type": "constant",
+                  "value": "cu"
+                },
+                "info.emailSent": {
+                  "type": "constant",
+                  "value": "Email trimis"
+                },
+                "info.emailVerified": {
+                  "type": "constant",
+                  "value": "Email verificat"
+                },
+                "info.passwordChanged": {
+                  "type": "constant",
+                  "value": "Parola a fost schimbata"
+                },
+                "info.passwordReset": {
+                  "type": "constant",
+                  "value": "Resetare parola"
+                },
+                "error.emailRequired": {
+                  "type": "constant",
+                  "value": "Introduceti Email-ul."
+                },
+                "error.minChar": {
+                  "type": "constant",
+                  "value": "Parolă minima de 7 caractere "
+                },
+                "error.pwdsDontMatch": {
+                  "type": "constant",
+                  "value": "Parolele nu se potrivesc"
+                },
+                "error.pwOneDigit": {
+                  "type": "constant",
+                  "value": "Parola trebuie să contină cel puțin o cifră."
+                },
+                "error.pwOneLetter": {
+                  "type": "constant",
+                  "value": "Parola necesită o scrisoare."
+                },
+                "error.signInRequired": {
+                  "type": "constant",
+                  "value": "Autentificare."
+                },
+                "error.signupCodeIncorrect": {
+                  "type": "constant",
+                  "value": "Codul de înregistrare este incorectă."
+                },
+                "error.signupCodeRequired": {
+                  "type": "constant",
+                  "value": "Aveti nevoie de cod de înregistrare."
+                },
+                "error.usernameIsEmail": {
+                  "type": "constant",
+                  "value": "Numele de utilizator nu poate fi o adresă de e-mail."
+                },
+                "error.usernameRequired": {
+                  "type": "constant",
+                  "value": "Introduceti numele de utilizator."
+                },
+                "error.accounts.Email already exists.": {
+                  "type": "constant",
+                  "value": "E-mail există deja."
+                },
+                "error.accounts.Email doesn't match the criteria.": {
+                  "type": "constant",
+                  "value": "E-mail nu se potrivește cu criteriile."
+                },
+                "error.accounts.Invalid login token": {
+                  "type": "constant",
+                  "value": "Token invalid"
+                },
+                "error.accounts.Login forbidden": {
+                  "type": "constant",
+                  "value": "Autentificare interzisă"
+                },
+                "error.accounts.Service unknown": {
+                  "type": "constant",
+                  "value": "Service necunoscut"
+                },
+                "error.accounts.Unrecognized options for login request": {
+                  "type": "constant",
+                  "value": "Opțiuni nerecunoscute de cerere de conectare"
+                },
+                "error.accounts.User validation failed": {
+                  "type": "constant",
+                  "value": "Validare utilizator nereușit"
+                },
+                "error.accounts.Username already exists.": {
+                  "type": "constant",
+                  "value": "Numele de utilizator existent."
+                },
+                "error.accounts.You are not logged in.": {
+                  "type": "constant",
+                  "value": "Nu sunteti autentificat."
+                },
+                "error.accounts.You've been logged out by the server. Please log in again.": {
+                  "type": "constant",
+                  "value": "Ați fost deconectat de către server rugam sa va logati din nou."
+                },
+                "error.accounts.Your session has expired. Please log in again.": {
+                  "type": "constant",
+                  "value": "Sesiunea a expirat rugam sa va logati din nou."
+                },
+                "error.accounts.No matching login attempt found": {
+                  "type": "constant",
+                  "value": "Autentificare nereusită"
+                },
+                "error.accounts.Password is old. Please reset your password.": {
+                  "type": "constant",
+                  "value": "Parola expirata, Vă rugăm să resetati parola."
+                },
+                "error.accounts.Incorrect password": {
+                  "type": "constant",
+                  "value": "Parola incorectă"
+                },
+                "error.accounts.Invalid email": {
+                  "type": "constant",
+                  "value": "E-mail invalid"
+                },
+                "error.accounts.Must be logged in": {
+                  "type": "constant",
+                  "value": "Trebuie sa fii logat"
+                },
+                "error.accounts.Need to set a username or email": {
+                  "type": "constant",
+                  "value": "Adaugati un nume utilizator sau un e-mail"
+                },
+                "error.accounts.old password format": {
+                  "type": "constant",
+                  "value": "Parola cu format vechi"
+                },
+                "error.accounts.Password may not be empty": {
+                  "type": "constant",
+                  "value": "Parola nu poate fi gol"
+                },
+                "error.accounts.Signups forbidden": {
+                  "type": "constant",
+                  "value": "Înscrieri interzisă"
+                },
+                "error.accounts.Token expired": {
+                  "type": "constant",
+                  "value": "Token expirat"
+                },
+                "error.accounts.Token has invalid email address": {
+                  "type": "constant",
+                  "value": "Token are adresă de email invalidă"
+                },
+                "error.accounts.User has no password set": {
+                  "type": "constant",
+                  "value": "Utilizator nu are parola setată"
+                },
+                "error.accounts.User not found": {
+                  "type": "constant",
+                  "value": "Utilizator nu a fost găsit"
+                },
+                "error.accounts.Verify email link expired": {
+                  "type": "constant",
+                  "value": "Link-ul de e-mail a expirat"
+                },
+                "error.accounts.Verify email link is for unknown address": {
+                  "type": "constant",
+                  "value": "Link-ul de e-mail nu corespunde"
+                },
+                "error.accounts.Match failed": {
+                  "type": "constant",
+                  "value": "Potrivire nereușită"
+                },
+                "error.accounts.Unknown error": {
+                  "type": "constant",
+                  "value": "Eroare necunoscută"
                 }
               }
             },
@@ -18260,11 +16962,11 @@ var packageMetadata = {
                 },
                 "emailResetLink": {
                   "type": "constant",
-                  "value": "E-post återställningslänk"
+                  "value": "Återställningslänk för e-post"
                 },
                 "forgotPassword": {
                   "type": "constant",
-                  "value": "Glömt din e-postadress?"
+                  "value": "Glömt ditt lösenord?"
                 },
                 "ifYouAlreadyHaveAnAccount": {
                   "type": "constant",
@@ -18308,7 +17010,7 @@ var packageMetadata = {
                 },
                 "setPassword": {
                   "type": "constant",
-                  "value": "Sätt ett lösenord"
+                  "value": "Välj lösenord"
                 },
                 "sign": {
                   "type": "constant",
@@ -18340,7 +17042,7 @@ var packageMetadata = {
                 },
                 "terms": {
                   "type": "constant",
-                  "value": "användarvilkor"
+                  "value": "användarvillkor"
                 },
                 "updateYourPassword": {
                   "type": "constant",
@@ -18376,7 +17078,7 @@ var packageMetadata = {
                 },
                 "error.emailRequired": {
                   "type": "constant",
-                  "value": "Det krävs ett lösenord."
+                  "value": "Det krävs en e-postaddress."
                 },
                 "error.minChar": {
                   "type": "constant",
@@ -20469,15 +19171,15 @@ var packageMetadata = {
           "members": {
             "depend": {
               "type": "function",
-              "refID": 28
+              "refID": 31
             },
             "changed": {
               "type": "function",
-              "refID": 30
+              "refID": 33
             },
             "hasDependents": {
               "type": "function",
-              "refID": 32
+              "refID": 35
             }
           }
         },
@@ -20485,13 +19187,13 @@ var packageMetadata = {
           "type": "object",
           "members": {
             "depend": {
-              "ref": 28
+              "ref": 31
             },
             "changed": {
-              "ref": 30
+              "ref": 33
             },
             "hasDependents": {
-              "ref": 32
+              "ref": 35
             }
           }
         },
@@ -20569,13 +19271,13 @@ var packageMetadata = {
       }
     }
   },
-  "wizonesolutions:underscore-string": {
-    "_s": {
-      "type": "object",
+  "underscorestring:underscore.string": {
+    "s": {
+      "type": "function",
       "members": {
         "VERSION": {
           "type": "constant",
-          "value": "2.3.0"
+          "value": "3.0.3"
         },
         "isBlank": {
           "type": "function"
@@ -20586,8 +19288,15 @@ var packageMetadata = {
         "capitalize": {
           "type": "function"
         },
+        "decapitalize": {
+          "type": "function"
+        },
         "chop": {
           "type": "function"
+        },
+        "trim": {
+          "type": "function",
+          "refID": 11
         },
         "clean": {
           "type": "function"
@@ -20607,23 +19316,26 @@ var packageMetadata = {
         "unescapeHTML": {
           "type": "function"
         },
-        "escapeRegExp": {
-          "type": "function"
-        },
         "splice": {
           "type": "function"
         },
         "insert": {
           "type": "function"
         },
+        "replaceAll": {
+          "type": "function"
+        },
         "include": {
           "type": "function",
-          "refID": 27
+          "refID": 31
         },
         "join": {
           "type": "function"
         },
         "lines": {
+          "type": "function"
+        },
+        "dedent": {
           "type": "function"
         },
         "reverse": {
@@ -20635,6 +19347,9 @@ var packageMetadata = {
         "endsWith": {
           "type": "function"
         },
+        "pred": {
+          "type": "function"
+        },
         "succ": {
           "type": "function"
         },
@@ -20642,7 +19357,8 @@ var packageMetadata = {
           "type": "function"
         },
         "camelize": {
-          "type": "function"
+          "type": "function",
+          "refID": 51
         },
         "underscored": {
           "type": "function"
@@ -20656,17 +19372,13 @@ var packageMetadata = {
         "humanize": {
           "type": "function"
         },
-        "trim": {
-          "type": "function",
-          "refID": 53
-        },
         "ltrim": {
           "type": "function",
-          "refID": 55
+          "refID": 61
         },
         "rtrim": {
           "type": "function",
-          "refID": 57
+          "refID": 63
         },
         "truncate": {
           "type": "function"
@@ -20682,15 +19394,15 @@ var packageMetadata = {
         },
         "lpad": {
           "type": "function",
-          "refID": 67
+          "refID": 73
         },
         "rpad": {
           "type": "function",
-          "refID": 69
+          "refID": 75
         },
         "lrpad": {
           "type": "function",
-          "refID": 71
+          "refID": 77
         },
         "sprintf": {
           "type": "function",
@@ -20741,12 +19453,9 @@ var packageMetadata = {
         },
         "quote": {
           "type": "function",
-          "refID": 102
+          "refID": 108
         },
         "unquote": {
-          "type": "function"
-        },
-        "exports": {
           "type": "function"
         },
         "repeat": {
@@ -20760,34 +19469,291 @@ var packageMetadata = {
         },
         "toBoolean": {
           "type": "function",
-          "refID": 114
+          "refID": 118
+        },
+        "exports": {
+          "type": "function"
+        },
+        "escapeRegExp": {
+          "type": "function"
         },
         "strip": {
-          "ref": 53
+          "ref": 11
         },
         "lstrip": {
-          "ref": 55
+          "ref": 61
         },
         "rstrip": {
-          "ref": 57
+          "ref": 63
         },
         "center": {
-          "ref": 71
+          "ref": 77
         },
         "rjust": {
-          "ref": 67
+          "ref": 73
         },
         "ljust": {
-          "ref": 69
+          "ref": 75
         },
         "contains": {
-          "ref": 27
+          "ref": 31
         },
         "q": {
-          "ref": 102
+          "ref": 108
         },
         "toBool": {
-          "ref": 114
+          "ref": 118
+        },
+        "camelcase": {
+          "ref": 51
+        },
+        "prototype": {
+          "type": "object",
+          "members": {
+            "value": {
+              "type": "function"
+            },
+            "isBlank": {
+              "type": "function"
+            },
+            "stripTags": {
+              "type": "function"
+            },
+            "capitalize": {
+              "type": "function"
+            },
+            "decapitalize": {
+              "type": "function"
+            },
+            "chop": {
+              "type": "function"
+            },
+            "trim": {
+              "type": "function"
+            },
+            "clean": {
+              "type": "function"
+            },
+            "count": {
+              "type": "function"
+            },
+            "chars": {
+              "type": "function"
+            },
+            "swapCase": {
+              "type": "function"
+            },
+            "escapeHTML": {
+              "type": "function"
+            },
+            "unescapeHTML": {
+              "type": "function"
+            },
+            "splice": {
+              "type": "function"
+            },
+            "insert": {
+              "type": "function"
+            },
+            "replaceAll": {
+              "type": "function"
+            },
+            "include": {
+              "type": "function"
+            },
+            "join": {
+              "type": "function"
+            },
+            "lines": {
+              "type": "function"
+            },
+            "dedent": {
+              "type": "function"
+            },
+            "reverse": {
+              "type": "function"
+            },
+            "startsWith": {
+              "type": "function"
+            },
+            "endsWith": {
+              "type": "function"
+            },
+            "pred": {
+              "type": "function"
+            },
+            "succ": {
+              "type": "function"
+            },
+            "titleize": {
+              "type": "function"
+            },
+            "camelize": {
+              "type": "function"
+            },
+            "underscored": {
+              "type": "function"
+            },
+            "dasherize": {
+              "type": "function"
+            },
+            "classify": {
+              "type": "function"
+            },
+            "humanize": {
+              "type": "function"
+            },
+            "ltrim": {
+              "type": "function"
+            },
+            "rtrim": {
+              "type": "function"
+            },
+            "truncate": {
+              "type": "function"
+            },
+            "prune": {
+              "type": "function"
+            },
+            "words": {
+              "type": "function"
+            },
+            "pad": {
+              "type": "function"
+            },
+            "lpad": {
+              "type": "function"
+            },
+            "rpad": {
+              "type": "function"
+            },
+            "lrpad": {
+              "type": "function"
+            },
+            "sprintf": {
+              "type": "function"
+            },
+            "vsprintf": {
+              "type": "function"
+            },
+            "toNumber": {
+              "type": "function"
+            },
+            "numberFormat": {
+              "type": "function"
+            },
+            "strRight": {
+              "type": "function"
+            },
+            "strRightBack": {
+              "type": "function"
+            },
+            "strLeft": {
+              "type": "function"
+            },
+            "strLeftBack": {
+              "type": "function"
+            },
+            "toSentence": {
+              "type": "function"
+            },
+            "toSentenceSerial": {
+              "type": "function"
+            },
+            "slugify": {
+              "type": "function"
+            },
+            "surround": {
+              "type": "function"
+            },
+            "quote": {
+              "type": "function"
+            },
+            "unquote": {
+              "type": "function"
+            },
+            "repeat": {
+              "type": "function"
+            },
+            "naturalCmp": {
+              "type": "function"
+            },
+            "levenshtein": {
+              "type": "function"
+            },
+            "toBoolean": {
+              "type": "function"
+            },
+            "exports": {
+              "type": "function"
+            },
+            "escapeRegExp": {
+              "type": "function"
+            },
+            "strip": {
+              "type": "function"
+            },
+            "lstrip": {
+              "type": "function"
+            },
+            "rstrip": {
+              "type": "function"
+            },
+            "center": {
+              "type": "function"
+            },
+            "rjust": {
+              "type": "function"
+            },
+            "ljust": {
+              "type": "function"
+            },
+            "contains": {
+              "type": "function"
+            },
+            "q": {
+              "type": "function"
+            },
+            "toBool": {
+              "type": "function"
+            },
+            "camelcase": {
+              "type": "function"
+            },
+            "future": {
+              "type": "function"
+            },
+            "deprecate": {
+              "type": "function"
+            },
+            "tap": {
+              "type": "function"
+            },
+            "toUpperCase": {
+              "type": "function"
+            },
+            "toLowerCase": {
+              "type": "function"
+            },
+            "split": {
+              "type": "function"
+            },
+            "replace": {
+              "type": "function"
+            },
+            "slice": {
+              "type": "function"
+            },
+            "substring": {
+              "type": "function"
+            },
+            "substr": {
+              "type": "function"
+            },
+            "concat": {
+              "type": "function"
+            }
+          }
         }
       }
     }
@@ -22135,6 +21101,9 @@ var packageMetadata = {
             }
           }
         },
+        "getUserId": {
+          "type": "function"
+        },
         "extendCollectionInstance": {
           "type": "function"
         },
@@ -22158,36 +21127,6 @@ var packageMetadata = {
         },
         "isWithinPublish": {
           "type": "function"
-        }
-      }
-    }
-  },
-  "dburles:factory": {
-    "Factory": {
-      "type": "function",
-      "members": {
-        "define": {
-          "type": "function"
-        },
-        "get": {
-          "type": "function"
-        },
-        "build": {
-          "type": "function"
-        },
-        "create": {
-          "type": "function"
-        },
-        "extend": {
-          "type": "function"
-        },
-        "prototype": {
-          "type": "object",
-          "members": {
-            "after": {
-              "type": "function"
-            }
-          }
         }
       }
     }
@@ -22249,6 +21188,10 @@ var packageMetadata = {
         "options": {
           "type": "object",
           "members": {
+            "logger": {
+              "type": "null",
+              "value": null
+            },
             "collectionName": {
               "type": "constant",
               "value": "cronHistory"
@@ -22258,6 +21201,9 @@ var packageMetadata = {
               "value": 172800
             }
           }
+        },
+        "config": {
+          "type": "function"
         },
         "add": {
           "type": "function"
@@ -22269,6 +21215,9 @@ var packageMetadata = {
           "type": "function"
         },
         "remove": {
+          "type": "function"
+        },
+        "pause": {
           "type": "function"
         },
         "stop": {
@@ -22405,6 +21354,482 @@ var packageMetadata = {
       }
     }
   },
+  "velocity:chokidar": {
+    "chokidar": {
+      "type": "object",
+      "members": {
+        "FSWatcher": {
+          "type": "function",
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "add": {
+                  "type": "function"
+                },
+                "unwatch": {
+                  "type": "function"
+                },
+                "close": {
+                  "type": "function"
+                },
+                "setMaxListeners": {
+                  "type": "function"
+                },
+                "emit": {
+                  "type": "function"
+                },
+                "addListener": {
+                  "type": "function",
+                  "refID": 13
+                },
+                "on": {
+                  "ref": 13
+                },
+                "once": {
+                  "type": "function"
+                },
+                "removeListener": {
+                  "type": "function"
+                },
+                "removeAllListeners": {
+                  "type": "function"
+                },
+                "listeners": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "watch": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "velocity:meteor-internals": {
+    "VelocityMeteorInternals": {
+      "type": "object",
+      "members": {
+        "parseStack": {
+          "type": "object",
+          "members": {
+            "markBottom": {
+              "type": "function"
+            }
+          }
+        },
+        "buildmessage": {
+          "type": "object",
+          "members": {
+            "markBoundary": {
+              "type": "function"
+            }
+          }
+        },
+        "files": {
+          "type": "object",
+          "members": {
+            "cwd": {
+              "type": "function"
+            },
+            "findAppDir": {
+              "type": "function"
+            },
+            "findPackageDir": {
+              "type": "function"
+            },
+            "statOrNull": {
+              "type": "function"
+            },
+            "runJavaScript": {
+              "type": "function"
+            },
+            "FancySyntaxError": {
+              "type": "function"
+            },
+            "writeFile": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "writeFile"
+                }
+              }
+            },
+            "appendFile": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "appendFile"
+                }
+              }
+            },
+            "readFile": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "readFile"
+                }
+              }
+            },
+            "stat": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "stat"
+                }
+              }
+            },
+            "lstat": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "lstat"
+                }
+              }
+            },
+            "exists": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "exists"
+                }
+              }
+            },
+            "rename": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "rename"
+                }
+              }
+            },
+            "realpath": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "realpath"
+                }
+              }
+            },
+            "readdir": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "readdir"
+                }
+              }
+            },
+            "rmdir": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "rmdir"
+                }
+              }
+            },
+            "mkdir": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "mkdir"
+                }
+              }
+            },
+            "unlink": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "unlink"
+                }
+              }
+            },
+            "chmod": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "chmod"
+                }
+              }
+            },
+            "open": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "open"
+                }
+              }
+            },
+            "read": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "read"
+                }
+              }
+            },
+            "write": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "write"
+                }
+              }
+            },
+            "close": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "close"
+                }
+              }
+            },
+            "symlink": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "symlink"
+                }
+              }
+            },
+            "readlink": {
+              "type": "function",
+              "members": {
+                "displayName": {
+                  "type": "constant",
+                  "value": "readlink"
+                }
+              }
+            },
+            "createReadStream": {
+              "type": "function"
+            },
+            "createWriteStream": {
+              "type": "function"
+            },
+            "watchFile": {
+              "type": "function"
+            },
+            "unwatchFile": {
+              "type": "function"
+            },
+            "pathJoin": {
+              "type": "function"
+            },
+            "pathNormalize": {
+              "type": "function"
+            },
+            "pathRelative": {
+              "type": "function"
+            },
+            "pathResolve": {
+              "type": "function"
+            },
+            "pathDirname": {
+              "type": "function"
+            },
+            "pathBasename": {
+              "type": "function"
+            },
+            "pathExtname": {
+              "type": "function"
+            },
+            "pathSep": {
+              "type": "constant",
+              "value": "/"
+            },
+            "pathDelimiter": {
+              "type": "constant",
+              "value": ":"
+            },
+            "pathOsDelimiter": {
+              "type": "constant",
+              "value": ":"
+            },
+            "convertToStandardPath": {
+              "type": "function"
+            },
+            "convertToOSPath": {
+              "type": "function"
+            },
+            "convertToWindowsPath": {
+              "type": "function"
+            },
+            "convertToPosixPath": {
+              "type": "function"
+            },
+            "convertToStandardLineEndings": {
+              "type": "function"
+            },
+            "convertToOSLineEndings": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sanjo:long-running-child-process": {
+    "LongRunningChildProcess": {
+      "type": "function",
+      "members": {
+        "prototype": {
+          "type": "object",
+          "members": {
+            "taskName": {
+              "type": "null",
+              "value": null
+            },
+            "child": {
+              "type": "null",
+              "value": null
+            },
+            "pid": {
+              "type": "null",
+              "value": null
+            },
+            "getTaskName": {
+              "type": "function"
+            },
+            "getChild": {
+              "type": "function"
+            },
+            "getPid": {
+              "type": "function"
+            },
+            "isDead": {
+              "type": "function"
+            },
+            "isRunning": {
+              "type": "function"
+            },
+            "readPid": {
+              "type": "function"
+            },
+            "spawn": {
+              "type": "function"
+            },
+            "kill": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sanjo:meteor-version": {
+    "MeteorVersion": {
+      "type": "object",
+      "members": {
+        "getSemanticVersion": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "package-version-parser": {
+    "PackageVersion": {
+      "type": "function",
+      "members": {
+        "parse": {
+          "type": "function"
+        },
+        "versionMagnitude": {
+          "type": "function"
+        },
+        "lessThan": {
+          "type": "function"
+        },
+        "majorVersion": {
+          "type": "function"
+        },
+        "compare": {
+          "type": "function"
+        },
+        "getValidServerVersion": {
+          "type": "function"
+        },
+        "VersionConstraint": {
+          "type": "function"
+        },
+        "parseVersionConstraint": {
+          "type": "function"
+        },
+        "PackageConstraint": {
+          "type": "function",
+          "members": {
+            "prototype": {
+              "type": "object",
+              "members": {
+                "toString": {
+                  "type": "function"
+                }
+              }
+            }
+          }
+        },
+        "parsePackageConstraint": {
+          "type": "function"
+        },
+        "validatePackageName": {
+          "type": "function"
+        },
+        "invalidFirstFormatConstraint": {
+          "type": "function"
+        },
+        "removeBuildID": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "sanjo:meteor-files-helpers": {
+    "MeteorFilesHelpers": {
+      "type": "object",
+      "members": {
+        "getAppPath": {
+          "type": "function"
+        },
+        "getMeteorToolPath": {
+          "type": "function"
+        },
+        "getMeteorInstallationPath": {
+          "type": "function"
+        },
+        "getNodeModulePath": {
+          "type": "function"
+        },
+        "getPackageVersions": {
+          "type": "function"
+        },
+        "getPackageVersion": {
+          "type": "function"
+        },
+        "isPackageInstalled": {
+          "type": "function"
+        }
+      }
+    }
+  },
   "velocity:core": {
     "Velocity": {
       "type": "object",
@@ -22416,6 +21841,12 @@ var packageMetadata = {
           "type": "function"
         },
         "getTestsPath": {
+          "type": "function"
+        },
+        "getPackagesPath": {
+          "type": "function"
+        },
+        "getPackagePath": {
           "type": "function"
         },
         "postProcessors": {
@@ -22433,21 +21864,38 @@ var packageMetadata = {
         "onTest": {
           "type": "function"
         },
-        "Mirror": {
-          "type": "object",
-          "members": {
-            "start": {
-              "type": "function"
-            }
-          }
+        "setOption": {
+          "type": "function"
         },
-        "ProxyPackageSync": {
-          "type": "object",
-          "members": {
-            "regeneratePackageJs": {
-              "type": "function"
-            }
-          }
+        "setOptions": {
+          "type": "function"
+        },
+        "getOption": {
+          "type": "function"
+        },
+        "mirrorMeteorReleaseName": {
+          "type": "constant",
+          "value": "velocity:METEOR"
+        },
+        "mirrorMeteorVersion": {
+          "type": "constant",
+          "value": "1.1.0.2_3"
+        },
+        "mirrorMeteorRelease": {
+          "type": "constant",
+          "value": "velocity:METEOR@1.1.0.2_3"
+        },
+        "mirrorMeteorToolReleaseName": {
+          "type": "constant",
+          "value": "velocity:meteor-tool"
+        },
+        "mirrorMeteorToolVersion": {
+          "type": "constant",
+          "value": "1.1.3_4"
+        },
+        "mirrorMeteorToolRelease": {
+          "type": "constant",
+          "value": "velocity:meteor-tool@1.1.3_4"
         }
       }
     },
@@ -22610,6 +22058,12 @@ var packageMetadata = {
           "type": "function"
         },
         "remove": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
           "type": "function"
         },
         "allow": {
@@ -22784,6 +22238,12 @@ var packageMetadata = {
         "remove": {
           "type": "function"
         },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
         "allow": {
           "type": "function"
         },
@@ -22954,6 +22414,12 @@ var packageMetadata = {
           "type": "function"
         },
         "remove": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
           "type": "function"
         },
         "allow": {
@@ -23128,6 +22594,12 @@ var packageMetadata = {
         "remove": {
           "type": "function"
         },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
         "allow": {
           "type": "function"
         },
@@ -23298,6 +22770,12 @@ var packageMetadata = {
           "type": "function"
         },
         "remove": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
           "type": "function"
         },
         "allow": {
@@ -23472,6 +22950,190 @@ var packageMetadata = {
         "remove": {
           "type": "function"
         },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
+        "allow": {
+          "type": "function"
+        },
+        "deny": {
+          "type": "function"
+        },
+        "helpers": {
+          "type": "function"
+        }
+      }
+    },
+    "VelocityOptions": {
+      "type": "object",
+      "members": {
+        "before": {
+          "type": "object",
+          "members": {
+            "insert": {
+              "type": "function"
+            },
+            "update": {
+              "type": "function"
+            },
+            "remove": {
+              "type": "function"
+            },
+            "find": {
+              "type": "function"
+            },
+            "findOne": {
+              "type": "function"
+            }
+          }
+        },
+        "after": {
+          "type": "object",
+          "members": {
+            "insert": {
+              "type": "function"
+            },
+            "update": {
+              "type": "function"
+            },
+            "remove": {
+              "type": "function"
+            },
+            "find": {
+              "type": "function"
+            },
+            "findOne": {
+              "type": "function"
+            }
+          }
+        },
+        "hookOptions": {
+          "type": "object",
+          "members": {
+            "before": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "object"
+                },
+                "update": {
+                  "type": "object"
+                },
+                "remove": {
+                  "type": "object"
+                },
+                "find": {
+                  "type": "object"
+                },
+                "findOne": {
+                  "type": "object"
+                },
+                "all": {
+                  "type": "object"
+                }
+              }
+            },
+            "after": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "object"
+                },
+                "update": {
+                  "type": "object"
+                },
+                "remove": {
+                  "type": "object"
+                },
+                "find": {
+                  "type": "object"
+                },
+                "findOne": {
+                  "type": "object"
+                },
+                "all": {
+                  "type": "object"
+                }
+              }
+            },
+            "all": {
+              "type": "object",
+              "members": {
+                "insert": {
+                  "type": "object"
+                },
+                "update": {
+                  "type": "object"
+                },
+                "remove": {
+                  "type": "object"
+                },
+                "find": {
+                  "type": "object"
+                },
+                "findOne": {
+                  "type": "object"
+                },
+                "all": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "direct": {
+          "type": "object",
+          "members": {
+            "insert": {
+              "type": "function"
+            },
+            "update": {
+              "type": "function"
+            },
+            "remove": {
+              "type": "function"
+            },
+            "find": {
+              "type": "function"
+            },
+            "findOne": {
+              "type": "function"
+            }
+          }
+        },
+        "attachSchema": {
+          "type": "function"
+        },
+        "simpleSchema": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "update": {
+          "type": "function"
+        },
+        "upsert": {
+          "type": "function"
+        },
+        "find": {
+          "type": "function"
+        },
+        "findOne": {
+          "type": "function"
+        },
+        "remove": {
+          "type": "function"
+        },
+        "rawCollection": {
+          "type": "function"
+        },
+        "rawDatabase": {
+          "type": "function"
+        },
         "allow": {
           "type": "function"
         },
@@ -23498,72 +23160,6 @@ var packageMetadata = {
       }
     }
   },
-  "alanning:package-stubber": {
-    "PackageStubber": {
-      "type": "object",
-      "members": {
-        "functionReplacementStr": {
-          "type": "constant",
-          "value": "function emptyFn () {}"
-        },
-        "validate": {
-          "type": "object",
-          "members": {
-            "stubPackages": {
-              "type": "function"
-            },
-            "deepCopyReplaceFn": {
-              "type": "function"
-            }
-          }
-        },
-        "stubPackages": {
-          "type": "function"
-        },
-        "listTestPackages": {
-          "type": "function"
-        },
-        "listPackages": {
-          "type": "function"
-        },
-        "listPackageExports": {
-          "type": "function"
-        },
-        "deepCopyReplaceFn": {
-          "type": "function"
-        },
-        "shouldIgnorePackage": {
-          "type": "function"
-        },
-        "replaceFnPlaceholders": {
-          "type": "function"
-        },
-        "stubGenerators": {
-          "type": "object",
-          "members": {
-            "function": {
-              "type": "function"
-            },
-            "object": {
-              "type": "function"
-            },
-            "string": {
-              "type": "function"
-            },
-            "number": {
-              "type": "function"
-            },
-            "undefined": {
-              "type": "function"
-            }
-          }
-        },
-        "generateStubJsCode": {
-          "type": "function"
-        }
-      }
-    }
-  },
   "sanjo:karma": {
     "Karma": {
       "type": "object",
@@ -23580,127 +23176,7 @@ var packageMetadata = {
       "type": "object",
       "members": {
         "karmaChilds": {
-          "type": "object",
-          "members": {
-            "jasmine-client-unit": {
-              "type": "object",
-              "members": {
-                "taskName": {
-                  "type": "constant",
-                  "value": "jasmine-client-unit"
-                },
-                "appPath": {
-                  "type": "constant",
-                  "value": "/home/jimmie/Documents/meteor-boilerplate"
-                },
-                "pid": {
-                  "type": "constant",
-                  "value": 6394
-                },
-                "fout": {
-                  "type": "constant",
-                  "value": 32
-                },
-                "child": {
-                  "type": "object",
-                  "members": {
-                    "domain": {
-                      "type": "null",
-                      "value": null
-                    },
-                    "signalCode": {
-                      "type": "null",
-                      "value": null
-                    },
-                    "exitCode": {
-                      "type": "null",
-                      "value": null
-                    },
-                    "pid": {
-                      "type": "constant",
-                      "value": 6394
-                    },
-                    "stdin": {
-                      "type": "null",
-                      "value": null
-                    },
-                    "stdout": {
-                      "type": "null",
-                      "value": null
-                    },
-                    "stderr": {
-                      "type": "null",
-                      "value": null
-                    },
-                    "stdio": {
-                      "type": "array"
-                    },
-                    "spawn": {
-                      "type": "function"
-                    },
-                    "kill": {
-                      "type": "function"
-                    },
-                    "ref": {
-                      "type": "function"
-                    },
-                    "unref": {
-                      "type": "function"
-                    },
-                    "setMaxListeners": {
-                      "type": "function"
-                    },
-                    "emit": {
-                      "type": "function"
-                    },
-                    "addListener": {
-                      "type": "function",
-                      "refID": 17
-                    },
-                    "on": {
-                      "ref": 17
-                    },
-                    "once": {
-                      "type": "function"
-                    },
-                    "removeListener": {
-                      "type": "function"
-                    },
-                    "removeAllListeners": {
-                      "type": "function"
-                    },
-                    "listeners": {
-                      "type": "function"
-                    }
-                  }
-                },
-                "getTaskName": {
-                  "type": "function"
-                },
-                "getChild": {
-                  "type": "function"
-                },
-                "getPid": {
-                  "type": "function"
-                },
-                "isDead": {
-                  "type": "function"
-                },
-                "isRunning": {
-                  "type": "function"
-                },
-                "readPid": {
-                  "type": "function"
-                },
-                "spawn": {
-                  "type": "function"
-                },
-                "kill": {
-                  "type": "function"
-                }
-              }
-            }
-          }
+          "type": "object"
         },
         "getKarmaChild": {
           "type": "function"
@@ -23723,9 +23199,6 @@ var packageMetadata = {
         "getConfigPath": {
           "type": "function"
         },
-        "getAppPath": {
-          "type": "function"
-        },
         "getKarmaPath": {
           "type": "function"
         }
@@ -23743,6 +23216,135 @@ var packageMetadata = {
     }
   },
   "velocity:html-reporter": {},
+  "3stack:match-library": {
+    "MatchLib": {
+      "type": "object",
+      "members": {
+        "Optional": {
+          "type": "function"
+        },
+        "NullOr": {
+          "type": "function"
+        },
+        "NonEmptyString": {
+          "type": "object",
+          "members": {
+            "condition": {
+              "type": "function"
+            }
+          }
+        },
+        "RandomId": {
+          "type": "object",
+          "members": {
+            "condition": {
+              "type": "function"
+            }
+          }
+        },
+        "NonNegativeNumber": {
+          "type": "object",
+          "members": {
+            "condition": {
+              "type": "function"
+            }
+          }
+        },
+        "PositiveNumber": {
+          "type": "object",
+          "members": {
+            "condition": {
+              "type": "function"
+            }
+          }
+        },
+        "NonNegativeInteger": {
+          "type": "object",
+          "members": {
+            "condition": {
+              "type": "function"
+            }
+          }
+        },
+        "PositiveInteger": {
+          "type": "object",
+          "members": {
+            "condition": {
+              "type": "function"
+            }
+          }
+        },
+        "IntegerBetween": {
+          "type": "function"
+        },
+        "NonNegativeIntegerString": {
+          "type": "object",
+          "members": {
+            "condition": {
+              "type": "function"
+            }
+          }
+        },
+        "NonNegativeDecimalString": {
+          "type": "object",
+          "members": {
+            "condition": {
+              "type": "function"
+            }
+          }
+        },
+        "EmailAddress": {
+          "type": "object",
+          "members": {
+            "condition": {
+              "type": "function"
+            }
+          }
+        },
+        "NonEmptyArray": {
+          "type": "object",
+          "members": {
+            "condition": {
+              "type": "function"
+            }
+          }
+        },
+        "InArray": {
+          "type": "function"
+        },
+        "ArrayInArray": {
+          "type": "function"
+        },
+        "ObjectValues": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "xolvio:template-isolator": {},
+  "xolvio:inbox-stub": {},
+  "meteorhacks:subs-manager": {
+    "SubsManager": {
+      "type": "function",
+      "members": {
+        "prototype": {
+          "type": "object",
+          "members": {
+            "subscribe": {
+              "type": "function"
+            },
+            "reset": {
+              "type": "function"
+            },
+            "clear": {
+              "type": "function"
+            }
+          }
+        }
+      }
+    }
+  },
+  "fortawesome:fontawesome": {},
   "session": {},
   "livedata": {
     "DDP": {
@@ -23978,6 +23580,12 @@ var packageMetadata = {
             "remove": {
               "type": "function"
             },
+            "rawCollection": {
+              "type": "function"
+            },
+            "rawDatabase": {
+              "type": "function"
+            },
             "allow": {
               "type": "function"
             },
@@ -23994,9 +23602,7 @@ var packageMetadata = {
         }
       }
     }
-  },
-  "velocity:test-proxy": {},
-  "velocity:node-soft-mirror": {}
+  }
 }
 var globalContext = (typeof global !== 'undefined') ? global : window
 
